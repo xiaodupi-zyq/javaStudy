@@ -1,12 +1,13 @@
 package zyq07;
 
-class WithFinals {
+abstract class WithFinals {
     private final void f() {
         System.out.println("WithFinals.f()");
     }
     private void g() {
         System.out.println("WithFinals.g()");
     }
+
 }
 
 class OverridingPrivate extends WithFinals {
