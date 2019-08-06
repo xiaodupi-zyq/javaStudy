@@ -4,11 +4,20 @@ class Stringed extends Instrument{
     public void play(Note n) {
         System.out.println("Stringed.play() " + n);
     }
+    public String toString(){
+        return "Stringed";
+    }
+    void adjust() {
+        System.out.println("Adjusting Stringed");
+    }
 }
 
-class Brass extends Instrument{
+class Brass extends Wind{
     public void play(Note n) {
         System.out.println("Brass.play() " + n);
+    }
+    void adjust() {
+        System.out.println("Adjusting Brass");
     }
 }
 

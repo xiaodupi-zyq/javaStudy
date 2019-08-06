@@ -2,25 +2,37 @@ package zyq08;
 
 public class Cycle{
     public void ride(){
-        System.out.println("Cycle");
+        System.out.println("Cycle " + wheels());
+    }
+    public int wheels(){
+        return 0;
     }
 }
 
 class Unicycle extends Cycle{
     public void ride(){
-        System.out.println("Unicycle");
+        System.out.println("Unicycle " + wheels());
+    }
+    public int wheels(){
+        return 1;
     }
 }
 
 class Bicycle extends Cycle{
     public void ride(){
-        System.out.println("Bicycle");
+        System.out.println("Bicycle " + wheels());
+    }
+    public int wheels(){
+        return 2;
     }
 }
 
 class Tricycle extends Cycle{
     public void ride(){
-        System.out.println("Tricycle");
+        System.out.println("Tricycle " + wheels());
+    }
+    public int wheels(){
+        return 3;
     }
 }
 
