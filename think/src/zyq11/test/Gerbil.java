@@ -1,6 +1,7 @@
 package zyq11.test;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Gerbil {
     private int gerbilNumber;
@@ -18,8 +19,13 @@ public class Gerbil {
         gerbils.add(new Gerbil(20));
         gerbils.add(new Gerbil(24));
         gerbils.add(new Gerbil(30));
-        for(Gerbil g : gerbils){
-            g.hop();
+//        for(Gerbil g : gerbils){
+//            g.hop();
+//        }
+        Iterator<Gerbil> gerbilIterator = gerbils.iterator();
+        while (gerbilIterator.hasNext()){
+            Gerbil next = gerbilIterator.next();
+            next.hop();
         }
     }
 }
