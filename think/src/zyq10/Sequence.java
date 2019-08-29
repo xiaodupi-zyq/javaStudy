@@ -1,6 +1,5 @@
 package zyq10;
 
-import zyq08.shape.Square;
 
 interface Selector {
     boolean end();
@@ -19,6 +18,7 @@ public class Sequence {
             items[next++] = x;
         }
     }
+//    使用了继承的方法实现了，另一种使用内部类
     private class SequenceSelector implements  Selector {
         private int i = 0;
         public boolean end() {
@@ -39,6 +39,29 @@ public class Sequence {
     public Selector selector(){
         return new SequenceSelector();
     }
+
+//  内部类实现上述差不多功能
+    public Selector reverseSelector() {
+        return new Selector() {
+            private int i = 0;
+            @Override
+            public boolean end() {
+                return i < 0;
+            }
+
+            @Override
+            public Object current() {
+                return items[i];
+            }
+
+            @Override
+            public void next() {
+                if(i >= 0)
+                    i--;
+            }
+        };
+    }
+
     public static void main(String[] args){
         Sequence sequence = new Sequence(10);
         for(int i = 0; i < 10; i++){
