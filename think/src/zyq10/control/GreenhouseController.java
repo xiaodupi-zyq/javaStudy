@@ -14,8 +14,9 @@ public class GreenhouseController {
         };
         gc.addEvent(gc.new Restart(2000, eventList));
         if (args.length == 1){
+
             gc.addEvent(new GreenhouseControls.Terminate(new Integer(args[0])));
-            gc.run();
         }
+        gc.run();
     }
 }
