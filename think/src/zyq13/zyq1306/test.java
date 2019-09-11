@@ -52,5 +52,9 @@ public class test {
 //        {
 //            System.out.println("no");
 //        }
+
+        String see = "R-4000m、1-40m";
+        see = see.replaceAll("[\\pP\\p{Punct}]", "");
+        System.out.println(see);
     }
 }
