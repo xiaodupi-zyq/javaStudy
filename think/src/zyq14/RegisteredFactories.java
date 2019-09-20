@@ -27,6 +27,22 @@ class Part {
     }
 }
 
+
+
+class NullPart extends Part implements Null{
+
+    public final static Part NULL=new NullPart();
+
+    public static class Factory implements zyq14.Factory<NullPart>{
+
+        public NullPart create(){return (NullPart)NULL;}
+
+    }
+
+    public String toString(){return "it's NullPart";}
+
+}
+
 class Filter extends Part{ }
 
 class FuelFilter extends Filter{

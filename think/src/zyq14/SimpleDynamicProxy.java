@@ -32,3 +32,4 @@ public class SimpleDynamicProxy {
         consumer(proxy);
     }
 }
+//todo:动态代理
