@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zyq15/BasicGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq15/Generators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq15/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq15/GenericVarargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq15/New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq15/Sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq15/BankTeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zyq15/Sets.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -105,13 +100,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq15/test/Ja15_7.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zyq15/BankTeller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="341">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zyq14/Test1407.java" />
         <option value="$PROJECT_DIR$/src/zyq14/SweetShop.java" />
         <option value="$PROJECT_DIR$/src/zyq14/test/Test1407.java" />
         <option value="$PROJECT_DIR$/src/zyq14/test/Test1408.java" />
@@ -237,6 +234,7 @@
         <option value="$PROJECT_DIR$/src/zyq15/Generators.java" />
         <option value="$PROJECT_DIR$/src/zyq15/BasicGenerator.java" />
         <option value="$PROJECT_DIR$/src/zyq15/Sets.java" />
+        <option value="$PROJECT_DIR$/src/zyq15/BankTeller.java" />
       </list>
     </option>
   </component>
@@ -276,6 +274,13 @@
               <item name="think" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zyq15" type="462c0819:PsiDirectoryNode" />
+              <item name="BankTeller.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="think" type="b2602c69:ProjectViewProjectNode" />
+              <item name="think" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zyq15" type="462c0819:PsiDirectoryNode" />
               <item name="coffee" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,7 +311,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569487622725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569504096091" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -474,7 +479,7 @@
       <workItem from="1569381174565" duration="132000" />
       <workItem from="1569415831739" duration="4617000" />
       <workItem from="1569470092385" duration="590000" />
-      <workItem from="1569483129481" duration="4765000" />
+      <workItem from="1569483129481" duration="6860000" />
     </task>
     <task id="LOCAL-00001" summary="6.2">
       <created>1564112769046</created>
@@ -700,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569419972667</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="15.4 泛型方法">
+      <created>1569487944161</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569487944161</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331342000" />
+    <option name="totallyTimeSpent" value="333437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,7 +729,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -794,8 +805,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7.4" />
-    <MESSAGE value="7.7" />
     <MESSAGE value="8.1" />
     <MESSAGE value="第八章，多态" />
     <MESSAGE value="9.2" />
@@ -819,16 +828,11 @@
     <MESSAGE value="14.8 空对象" />
     <MESSAGE value="第14章 类型信息 RTTI，Class对象，动态的isInstanceof，动态代理以及空对象等（本章较为难以理解，需要加油回顾）" />
     <MESSAGE value="15.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.3" />
+    <MESSAGE value="15.4" />
+    <MESSAGE value="15.4 泛型方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.4 泛型方法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zyq14/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zyq14/test/Test1414.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -1339,6 +1343,19 @@
             <element signature="imports" expanded="true" />
             <element signature="e#638#639#0" expanded="true" />
             <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq15/BankTeller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
