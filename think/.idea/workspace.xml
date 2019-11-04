@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zyq20/PasswordUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/SimulatingNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/Testable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/UseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/UseCaseTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/database/Constraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/database/DBTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/database/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/database/SQLInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/database/SQLString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/database/TableCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/database/Uniqueness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq20/AtUnitExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq20/ExtractInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq20/Multiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq20/TableCreationProcessorFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zyq20/database/TableCreator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,57 +36,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/PasswordUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/UseCaseTracker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/SimulatingNull.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/DBTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zyq20/database/Constraints.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -107,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,16 +84,40 @@
         <entry file="file://$PROJECT_DIR$/src/zyq20/database/Member.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="87" lean-forward="true" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+              <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zyq20/ExtractInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java">
+        <entry file="file://$PROJECT_DIR$/src/zyq20/Multiplier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="408">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -183,11 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zyq18/TextFile.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/BinaryFile.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/Echo.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/Redirecting.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/GetChannel.java" />
         <option value="$PROJECT_DIR$/src/zyq18/BufferToText.java" />
         <option value="$PROJECT_DIR$/src/zyq18/FileLocking.java" />
         <option value="$PROJECT_DIR$/src/zyq18/LockingMappedFiles.java" />
@@ -234,6 +197,11 @@
         <option value="$PROJECT_DIR$/src/zyq20/database/Uniqueness.java" />
         <option value="$PROJECT_DIR$/src/zyq20/database/Member.java" />
         <option value="$PROJECT_DIR$/src/zyq20/database/TableCreator.java" />
+        <option value="$PROJECT_DIR$/src/zyq20/ExtractInterface.java" />
+        <option value="$PROJECT_DIR$/src/zyq20/Multiplier.java" />
+        <option value="$PROJECT_DIR$/src/zyq20/InterfaceExtractorProcessor.java" />
+        <option value="$PROJECT_DIR$/src/zyq20/TableCreationProcessorFactory.java" />
+        <option value="$PROJECT_DIR$/src/zyq20/AtUnitExample1.java" />
       </list>
     </option>
   </component>
@@ -250,6 +218,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,20 +239,17 @@
             </path>
             <path>
               <item name="think" type="b2602c69:ProjectViewProjectNode" />
-              <item name="think" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zyq20" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="think" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +259,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572600369395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572872992836" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -325,26 +291,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseCaseTracker">
-    <configuration name="RoShamBo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zyq19.RoShamBo1" />
+  <component name="RunManager" selected="Application.Multiplier">
+    <configuration name="Multiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyq20.Multiplier" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zyq19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoShamBo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zyq19.RoShamBo2" />
-      <module name="think" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zyq19.*" />
+          <option name="PATTERN" value="zyq20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,6 +331,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TableCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyq20.database.TableCreator" />
+      <module name="think" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zyq20.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UseCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zyq20.UseCaseTracker" />
       <module name="think" />
@@ -393,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multiplier" />
+        <item itemvalue="Application.TableCreator" />
         <item itemvalue="Application.UseCaseTracker" />
         <item itemvalue="Application.RoShamBo5" />
         <item itemvalue="Application.RoShamBo3" />
-        <item itemvalue="Application.RoShamBo2" />
-        <item itemvalue="Application.RoShamBo1" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +448,9 @@
       <workItem from="1571972246616" duration="3068000" />
       <workItem from="1571983055280" duration="21666000" />
       <workItem from="1572417556744" duration="596000" />
-      <workItem from="1572427666291" duration="9108000" />
+      <workItem from="1572427666291" duration="17199000" />
+      <workItem from="1572832894238" duration="593000" />
+      <workItem from="1572870521532" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="6.2">
       <created>1564112769046</created>
@@ -785,11 +753,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572331577625</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="20.4">
+      <created>1572600705163</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1572600705163</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="521886000" />
+    <option name="totallyTimeSpent" value="533037000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,10 +776,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -813,14 +788,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.298441" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35412025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26280624" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.532294" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32850778" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16592428" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.389755" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.17594655" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.27171493" />
@@ -910,7 +885,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11.6" />
     <MESSAGE value="11.11" />
     <MESSAGE value="第十一章，持有对象，主要讲数组，Array list set queue stack map&#10;hash linked tree collection Iterator" />
     <MESSAGE value="12.4（穿插13章正则表达式部分内容）" />
@@ -935,7 +909,8 @@
     <MESSAGE value="18.8" />
     <MESSAGE value="第十八章，JAVA的IO ，主要讲述了java文件的输入输出，标准IO，对象的序列化，持久性，序列化的特性控制，主要还是理解序列化及其持久性控制，以及文件的输入输出流的相关问题，ByteBuffer的不同窗口对底层的影响" />
     <MESSAGE value="第十九章 枚举类型 基本的enum特性，enum中导入新方法，如何进行enum的实现（无法继承）随机生成枚举类型enumMap以及多路分发" />
-    <option name="LAST_COMMIT_MESSAGE" value="第十九章 枚举类型 基本的enum特性，enum中导入新方法，如何进行enum的实现（无法继承）随机生成枚举类型enumMap以及多路分发" />
+    <MESSAGE value="20.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,73 +1119,22 @@
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zyq20/Multiplier.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zyq13/zyq1306/Rudolph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq13/zyq1306/Splitting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq13/zyq1306/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq18/MyWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq18/Blips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/EnumClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/Spiciness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zyq19/Burrito.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1569,7 +1493,17 @@
     <entry file="file://$PROJECT_DIR$/src/zyq20/SimulatingNull.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/DBTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1589,7 +1523,7 @@
     <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1598,8 +1532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1613,27 +1547,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/DBTable.java">
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/zyq20/ExtractInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="87" lean-forward="true" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+        <state relative-caret-position="240">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java">
+    <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/annotations/InterfaceExtractorProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="19" lean-forward="true" selection-start-line="6" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#2112#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/InterfaceExtractorProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/TableCreationProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/annotations/database/TableCreationProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="100" lean-forward="true" selection-start-line="6" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#3475#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/annotations/AtUnitExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/AtUnitExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/Multiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
