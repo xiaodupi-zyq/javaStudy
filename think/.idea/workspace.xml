@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zyq20/AtUnitExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/ExtractInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/Multiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zyq20/TableCreationProcessorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/BasicThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/CachedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/FixedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/LiftOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/MoreBasicThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/SimplePriorities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/SleepingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/test/Test2101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zyq21/test/Test2106.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zyq20/database/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zyq20/database/TableCreator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,64 +42,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/Constraints.java">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/LiftOff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLString.java">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/BasicThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/Uniqueness.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/Member.java">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/MoreBasicThreads.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/test/Test2101.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="129">
+              <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,10 +87,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/ExtractInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/CachedThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/FixedThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/CallableDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-183">
+              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/SleepingTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="25" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/test/Test2106.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +151,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zyq20/Multiplier.java">
+        <entry file="file://$PROJECT_DIR$/src/zyq21/SimplePriorities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="225">
+              <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,17 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zyq18/BufferToText.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/FileLocking.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/LockingMappedFiles.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/Worm.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/Alien.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/SerializeDemo.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/Blips.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/MyWorld.java" />
-        <option value="$PROJECT_DIR$/src/zyq18/Person.java" />
-        <option value="$PROJECT_DIR$/src/zyq13/zyq1306/test.java" />
-        <option value="$PROJECT_DIR$/src/zyq19/EnumClass.java" />
         <option value="$PROJECT_DIR$/src/zyq19/Spiciness.java" />
         <option value="$PROJECT_DIR$/src/zyq19/Burrito.java" />
         <option value="$PROJECT_DIR$/src/zyq19/OzWitch.java" />
@@ -202,6 +235,17 @@
         <option value="$PROJECT_DIR$/src/zyq20/InterfaceExtractorProcessor.java" />
         <option value="$PROJECT_DIR$/src/zyq20/TableCreationProcessorFactory.java" />
         <option value="$PROJECT_DIR$/src/zyq20/AtUnitExample1.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/MainThread.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/BasicThreads.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/MoreBasicThreads.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/LiftOff.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/CachedThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/test/Test2101.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/FixedThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/SleepingTask.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/test/Test2106.java" />
+        <option value="$PROJECT_DIR$/src/zyq21/SimplePriorities.java" />
       </list>
     </option>
   </component>
@@ -235,16 +279,26 @@
               <item name="think" type="b2602c69:ProjectViewProjectNode" />
               <item name="think" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zyq20" type="462c0819:PsiDirectoryNode" />
+              <item name="zyq21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="think" type="b2602c69:ProjectViewProjectNode" />
+              <item name="think" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zyq21" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="think" type="b2602c69:ProjectViewProjectNode" />
+              <item name="think" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zyq21" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test2101.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="think" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="think" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +313,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572872992836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573377213179" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -269,14 +323,17 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="zyq09.Rodent" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="zyq20" />
+      <recent name="zyq11" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java学习\think\think\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\java学习\think\think\src\zyq09\shape" />
       <recent name="E:\java学习\think\think\src\zyq09" />
       <recent name="E:\java学习\think\think\src\zyq09\music2" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="zyq20" />
-      <recent name="zyq11" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,13 +348,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Multiplier">
-    <configuration name="Multiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zyq20.Multiplier" />
+  <component name="RunManager" selected="Application.SimplePriorities">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyq21.CallableDemo" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zyq20.*" />
+          <option name="PATTERN" value="zyq21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoShamBo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zyq19.RoShamBo3" />
+    <configuration name="SimplePriorities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyq21.SimplePriorities" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zyq19.*" />
+          <option name="PATTERN" value="zyq21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoShamBo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zyq19.RoShamBo5" />
+    <configuration name="SleepingTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyq21.SleepingTask" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zyq19.*" />
+          <option name="PATTERN" value="zyq21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +388,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zyq20.database.TableCreator" />
+    <configuration name="Test2106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyq21.test.Test2106" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zyq20.database.*" />
+          <option name="PATTERN" value="zyq21.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,12 +401,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zyq20.UseCaseTracker" />
+    <configuration name="ThreadTest2105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyq21.test.ThreadTest2105" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zyq20.database.*" />
+          <option name="PATTERN" value="zyq21.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Multiplier" />
-        <item itemvalue="Application.TableCreator" />
-        <item itemvalue="Application.UseCaseTracker" />
-        <item itemvalue="Application.RoShamBo5" />
-        <item itemvalue="Application.RoShamBo3" />
+        <item itemvalue="Application.SimplePriorities" />
+        <item itemvalue="Application.Test2106" />
+        <item itemvalue="Application.SleepingTask" />
+        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.ThreadTest2105" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +507,9 @@
       <workItem from="1572417556744" duration="596000" />
       <workItem from="1572427666291" duration="17199000" />
       <workItem from="1572832894238" duration="593000" />
-      <workItem from="1572870521532" duration="2467000" />
+      <workItem from="1572870521532" duration="3202000" />
+      <workItem from="1573044299797" duration="4184000" />
+      <workItem from="1573369975327" duration="7123000" />
     </task>
     <task id="LOCAL-00001" summary="6.2">
       <created>1564112769046</created>
@@ -760,11 +819,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572600705163</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="第二十章，注解，个人理解注解是将一些数据放在固定的地方，便于编程的一种方式，可能有些浅显，但java编程思想中的注解代码太老了，">
+      <created>1572873105067</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1572873105067</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533037000" />
+    <option name="totallyTimeSpent" value="545079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,10 +842,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -788,7 +854,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26280624" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.49777284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.532294" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -885,7 +951,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11.11" />
     <MESSAGE value="第十一章，持有对象，主要讲数组，Array list set queue stack map&#10;hash linked tree collection Iterator" />
     <MESSAGE value="12.4（穿插13章正则表达式部分内容）" />
     <MESSAGE value="12.7" />
@@ -910,7 +975,8 @@
     <MESSAGE value="第十八章，JAVA的IO ，主要讲述了java文件的输入输出，标准IO，对象的序列化，持久性，序列化的特性控制，主要还是理解序列化及其持久性控制，以及文件的输入输出流的相关问题，ByteBuffer的不同窗口对底层的影响" />
     <MESSAGE value="第十九章 枚举类型 基本的enum特性，enum中导入新方法，如何进行enum的实现（无法继承）随机生成枚举类型enumMap以及多路分发" />
     <MESSAGE value="20.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.4" />
+    <MESSAGE value="第二十章，注解，个人理解注解是将一些数据放在固定的地方，便于编程的一种方式，可能有些浅显，但java编程思想中的注解代码太老了，" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二十章，注解，个人理解注解是将一些数据放在固定的地方，便于编程的一种方式，可能有些浅显，但java编程思想中的注解代码太老了，" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1129,152 +1195,18 @@
           <url>file://$PROJECT_DIR$/src/zyq20/Multiplier.java</url>
           <line>13</line>
           <properties />
-          <option name="timeStamp" value="46" />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zyq21/MainThread.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zyq19/Burrito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/OzWitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/SpaceShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/TrafficLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/EnumImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/Meal.java" />
-    <entry file="file://$PROJECT_DIR$/src/zyq19/SecurityCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/enumerated/AlarmPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/enumerated/EnumSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/Meal2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/util/EnumSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="193" column="49" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/AlarmPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq19/EnumMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/enumerated/PostOffice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1510,70 +1442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Constraints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Uniqueness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/ExtractInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/annotations/InterfaceExtractorProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1585,13 +1453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq20/InterfaceExtractorProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/InterfaceExtractorProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/zyq20/TableCreationProcessorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1627,10 +1489,218 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Constraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/SQLInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Uniqueness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq20/ExtractInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zyq20/Multiplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="462" column="33" selection-start-line="462" selection-start-column="27" selection-end-line="462" selection-end-column="33" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/MainThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/BasicThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/MoreBasicThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="216" column="60" lean-forward="true" selection-start-line="216" selection-start-column="60" selection-end-line="216" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/CachedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/test/Test2101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/FixedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="250" column="24" lean-forward="true" selection-start-line="250" selection-start-column="24" selection-end-line="250" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/LiftOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/SleepingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="25" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/test/Test2106.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zyq21/SimplePriorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
