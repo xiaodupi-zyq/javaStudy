@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b44e1de9-c89b-4860-87c2-f9b293859fa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/think/src/zyq14/FilledList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/think/src/zyq14/GenericClassReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/think/src/zyq14/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/think/src/zyq14/SweetShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/think/src/zyq14/ToyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/think/src/zyq14/test/Test1408.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/think/src/zyq14/test/Test1410.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/think/src/guide/LockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/think/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/think/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,16 +73,17 @@
       <workItem from="1566873076648" duration="107000" />
       <workItem from="1567429480676" duration="15000" />
       <workItem from="1568872860386" duration="118000" />
+      <workItem from="1575877443212" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240000" />
+    <option name="totallyTimeSpent" value="245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
