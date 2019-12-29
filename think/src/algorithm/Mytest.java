@@ -39,6 +39,25 @@ public class Mytest {
             temp1 = temp1.node;
         }
         System.out.println(temp1.c);
+        System.out.println();
+
+        Node1 head = new Node1();
+        Node1 last = new Node1();
+        head = last = temp1;
+        temp1 = temp1.node;
+        while (temp1 != null){
+            Node1 t = new Node1();
+            t = temp1;
+            temp1 = temp1.node;
+            t.node = head;
+            head = t;
+        }
+        last.node = null;
+        temp = head;
+        while (temp != null){
+            System.out.println(temp.c);
+            temp = temp.node;
+        }
 
 
 
