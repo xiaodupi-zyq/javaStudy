@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="链表的相关操作：&#10;1、单链表反转&#10;2、链表中环的检测&#10;3、两个有序的链表的合并&#10;4、删除链表倒数第n个结点&#10;5、求链表的中间结点&#10;&#10;重要思想：快慢指针的使用，很有用！！！">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/MyStack.java" afterDir="false" />
+    <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/MyArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/MyListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/Sort/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/MyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,49 +35,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Mytest.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/MyArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-672">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/MyLinked.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/MyListQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="312">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/LRU.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="168">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/MyStack.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1706">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#80#81#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="314">
+              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -109,12 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zyq21/Interrupting.java" />
-        <option value="$PROJECT_DIR$/src/zyq21/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/zyq21/CloseResource.java" />
-        <option value="$PROJECT_DIR$/src/zyq21/MultiLock.java" />
-        <option value="$PROJECT_DIR$/src/zyq21/WaxOMatic.java" />
-        <option value="$PROJECT_DIR$/src/zyq21/test/Test2121.java" />
         <option value="$PROJECT_DIR$/src/zyq21/NotifyVSNotifyAll.java" />
         <option value="$PROJECT_DIR$/src/zyq21/test/Market24.java" />
         <option value="$PROJECT_DIR$/src/zyq21/WaxOMatic2/WaxOMatic2.java" />
@@ -160,13 +144,20 @@
         <option value="$PROJECT_DIR$/src/algorithm/MyLinked.java" />
         <option value="$PROJECT_DIR$/src/algorithm/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/algorithm/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/MyArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/MyListQueue.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Sort.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Sort/Sort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="625" />
-    <option name="width" value="1159" />
-    <option name="height" value="1051" />
+    <option name="x" value="942" />
+    <option name="y" value="13" />
+    <option name="width" value="1285" />
+    <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,6 +199,13 @@
             </path>
             <path>
               <item name="think" type="b2602c69:ProjectViewProjectNode" />
+              <item name="think" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="think" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -225,27 +223,27 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577693996189" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577952956802" />
     <property name="last_opened_file_path" value="E:/springBoot/elasticsearch" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="zyq09.Rodent" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="zyq20" />
-      <recent name="zyq11" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\java学习\think\think\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\java学习\think\think\src\zyq09\shape" />
       <recent name="E:\java学习\think\think\src\zyq09" />
       <recent name="E:\java学习\think\think\src\zyq09\music2" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="zyq09.Rodent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java学习\think\think\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="zyq20" />
+      <recent name="zyq11" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,26 +258,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyStack">
-    <configuration name="CyclicBarrierExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guide.CyclicBarrierExample2" />
+  <component name="RunManager" selected="Application.Sort">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Fibonacci" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guide.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guide.CyclicBarrierExample3" />
-      <module name="think" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guide.*" />
+          <option name="PATTERN" value="algorithm.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,7 +277,20 @@
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="algorithm.Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.MyListQueue" />
+      <module name="think" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,7 +303,7 @@
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="algorithm.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mytest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Mytest" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Sort.Sort" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="algorithm.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.MyListQueue" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.MyLinked" />
-        <item itemvalue="Application.Mytest" />
-        <item itemvalue="Application.CyclicBarrierExample3" />
-        <item itemvalue="Application.CyclicBarrierExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -440,14 +438,7 @@
       <workItem from="1577171946849" duration="14177000" />
       <workItem from="1577252595812" duration="6727000" />
       <workItem from="1577338890290" duration="2657000" />
-      <workItem from="1577416350317" duration="8613000" />
-    </task>
-    <task id="LOCAL-00005" summary="7.4">
-      <created>1564450565864</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564450565864</updated>
+      <workItem from="1577416350317" duration="22418000" />
     </task>
     <task id="LOCAL-00006" summary="7.7">
       <created>1564579791989</created>
@@ -785,11 +776,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577611147657</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="链表实现链式栈，包括出栈入栈等操作。">
+      <created>1577694241671</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1577694241671</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="742381000" />
+    <option name="totallyTimeSpent" value="756186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,10 +799,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="792" y="0" width="1159" height="1051" extended-state="0" />
+    <frame x="942" y="13" width="1285" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21747042" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19510204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -813,7 +811,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.38857782" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.46400887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4087346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -823,7 +821,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.16573972" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013649" side_tool="true" weight="0.3706607" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.17469205" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.27171493" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.42665175" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -910,7 +908,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第14章 类型信息 RTTI，Class对象，动态的isInstanceof，动态代理以及空对象等（本章较为难以理解，需要加油回顾）" />
     <MESSAGE value="15.3" />
     <MESSAGE value="15.4" />
     <MESSAGE value="15.4 泛型方法" />
@@ -935,7 +932,8 @@
     <MESSAGE value="Array，LinkedList,Queue,DeadLock,MultiThread" />
     <MESSAGE value="并发博客，以及算法之美1" />
     <MESSAGE value="链表的相关操作：&#10;1、单链表反转&#10;2、链表中环的检测&#10;3、两个有序的链表的合并&#10;4、删除链表倒数第n个结点&#10;5、求链表的中间结点&#10;&#10;重要思想：快慢指针的使用，很有用！！！" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表的相关操作：&#10;1、单链表反转&#10;2、链表中环的检测&#10;3、两个有序的链表的合并&#10;4、删除链表倒数第n个结点&#10;5、求链表的中间结点&#10;&#10;重要思想：快慢指针的使用，很有用！！！" />
+    <MESSAGE value="链表实现链式栈，包括出栈入栈等操作。" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表实现链式栈，包括出栈入栈等操作。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1232,57 +1230,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zyq21/ToastOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/concurrency/HorseRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#2618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq21/deadLock/Chopstick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq21/deadLock/Philosopher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="444" selection-start-line="444" selection-end-line="444" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Java编程思想包/TIJ4-code/concurrency/DelayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1435,13 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/MyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1616,6 +1556,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1706">
@@ -1626,10 +1573,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/MyStack.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        <state relative-caret-position="624">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/MyArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/MyListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
         </state>
       </provider>
     </entry>
