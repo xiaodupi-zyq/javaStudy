@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/MyArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/MyListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/Sort/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+            <state relative-caret-position="192">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -154,8 +150,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="942" />
-    <option name="y" value="13" />
+    <option name="x" value="635" />
+    <option name="y" value="3" />
     <option name="width" value="1285" />
     <option name="height" value="1061" />
   </component>
@@ -223,7 +219,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577952956802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577956502860" />
     <property name="last_opened_file_path" value="E:/springBoot/elasticsearch" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -438,14 +434,7 @@
       <workItem from="1577171946849" duration="14177000" />
       <workItem from="1577252595812" duration="6727000" />
       <workItem from="1577338890290" duration="2657000" />
-      <workItem from="1577416350317" duration="22418000" />
-    </task>
-    <task id="LOCAL-00006" summary="7.7">
-      <created>1564579791989</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564579791989</updated>
+      <workItem from="1577416350317" duration="24174000" />
     </task>
     <task id="LOCAL-00007" summary="8.1">
       <created>1564928660315</created>
@@ -783,11 +772,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577694241671</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="数组队列实现，链式队列实现，递归实现斐波那契数列；&#10;排序：冒泡排序，插入排序，选择排序">
+      <created>1577953094631</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1577953094631</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="756186000" />
+    <option name="totallyTimeSpent" value="757942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,7 +795,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="942" y="13" width="1285" height="1061" extended-state="0" />
+    <frame x="635" y="3" width="1285" height="1061" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19510204" />
@@ -908,7 +904,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15.3" />
     <MESSAGE value="15.4" />
     <MESSAGE value="15.4 泛型方法" />
     <MESSAGE value="15.5 匿名类 结合泛型 （有些问题，可能是版本问题）" />
@@ -933,7 +928,8 @@
     <MESSAGE value="并发博客，以及算法之美1" />
     <MESSAGE value="链表的相关操作：&#10;1、单链表反转&#10;2、链表中环的检测&#10;3、两个有序的链表的合并&#10;4、删除链表倒数第n个结点&#10;5、求链表的中间结点&#10;&#10;重要思想：快慢指针的使用，很有用！！！" />
     <MESSAGE value="链表实现链式栈，包括出栈入栈等操作。" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表实现链式栈，包括出栈入栈等操作。" />
+    <MESSAGE value="数组队列实现，链式队列实现，递归实现斐波那契数列；&#10;排序：冒泡排序，插入排序，选择排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组队列实现，链式队列实现，递归实现斐波那契数列；&#10;排序：冒泡排序，插入排序，选择排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1613,8 +1609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+        <state relative-caret-position="192">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
         </state>
       </provider>
     </entry>

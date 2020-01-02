@@ -71,6 +71,10 @@ public class Sort {
         }
     }
 
+    /**
+     * 选择排序
+     * @param a
+     */
     public static void selectionSort(int [] a){
         for(int i = 0; i < a.length; i++){//遍历数组中所有的位置
             int min = i;//默认该位置上的现有的数就是未排序区最小的
