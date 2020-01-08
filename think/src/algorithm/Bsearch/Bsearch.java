@@ -90,6 +90,132 @@ public class Bsearch {
 
     }
 
+    /**
+     * 寻找第一个等于给定值的元素
+     * @param a
+     * @param value
+     * @return
+     */
+    public int fristItem(int[] a,int value){
+        int low = 0;
+        int high = a.length - 1;
+        while(low <= high){
+            int mid = low + ((high - low) >> 1);
+            if(a[mid] > value){
+                high = mid - 1;
+            }else if(a[mid] < value){
+                low = mid + 1;
+            }else {
+                if(mid == 0 || a[mid - 1] != value) return mid;
+                else high = mid - 1;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 查找最后一个等于给定值的函数
+     * @param a
+     * @param value
+     * @return
+     */
+    public int lastItem(int[] a, int value){
+        int low = 0;
+        int high = a.length - 1;
+        while (low <= high){
+            int mid = low + ((high - low) >> 1);
+            if(a[mid] > value){
+                high = mid - 1;
+            }else if(a[mid] < value){
+                low = mid + 1;
+            }else {
+                if(mid == a.length - 1 || a[mid + 1] != value) {
+                    return mid;
+                }else {
+                    low = mid + 1;
+                }
+            }
+        }
+        return  -1;
+    }
+
+    /**
+     * 第一个大于等于给定值的元素
+     * @param a
+     * @param value
+     * @return
+     */
+    public int fristGEItem(int[] a,int value){
+        int low = 0;
+        int high = a.length - 1;
+        while(low <= high){
+            int mid = low + ((high - low) >> 1);
+            if(a[mid] < value){
+                low = mid + 1;
+            }else {
+                if(mid == 0 || a[mid - 1] < value){
+                    return mid;
+                }else {
+                    high = mid - 1;
+                }
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 最后一个小于等于给定值的元素
+     * @param a
+     * @param value
+     * @return
+     */
+    public int lastLEItem(int[] a,int value){
+        int low = 0;
+        int high = a.length - 1;
+        while(low <= high){
+            int mid = low + ((high - low) >> 1);
+            if(a[mid] > value){
+                high = mid - 1;
+            }else {
+                if(mid == a.length - 1 || a[mid + 1] > value){
+                    return mid;
+                }else {
+                    low = mid + 1;
+                }
+            }
+        }
+        return -1;
+    }
+
+    public int search1(int[] nums, int target){
+        return search1(nums,0,nums.length - 1, target);
+    }
+
+    public int search1(int[] nums,int low,int high,int target){
+        if(low > high){
+            return -1;
+        }
+        int mid = low + ((high - low) >> 2);
+        if(nums[mid] == target){
+            return mid;
+        }
+        if(nums[mid] >= nums[low]){
+            if(target >= nums[low] && target < nums[mid]){
+                return search1(nums,low,mid - 1,target);
+            }else {
+                return search1(nums,mid + 1,high,target);
+            }
+        }else {
+            if(target <= nums[high] && target > nums[mid]){
+                return search1(nums,mid + 1,high,target);
+            }else {
+                return search1(nums,low,mid - 1,target);
+            }
+        }
+    }
+
+
+
     public static void main(String[] args){
         int[] a = {19,27,8,45,11,67,55,98,33,23};
         out(a);
@@ -103,6 +229,32 @@ public class Bsearch {
         System.out.println(bsearch.sqrt(3));
         System.out.println(bsearch.sqrt(25));
         System.out.println(bsearch.sqrt(7));
+
+        System.out.println("--------------------------------");
+
+        int[] b = {1,3,4,5,8,8,8,8,8,18};
+        System.out.println(bsearch.fristItem(b,8));
+        System.out.println(bsearch.lastItem(b,8));
+
+        System.out.println("--------------------------------");
+        int[] c = arrayGenerator(20);
+        out(c);
+        Sort.quickSort(c);
+        out(c);
+        System.out.println(bsearch.fristGEItem(c,25) + " " + c[bsearch.fristGEItem(c,25)]);
+
+        System.out.println("--------------------------------");
+        c = arrayGenerator(20);
+        out(c);
+        Sort.quickSort(c);
+        out(c);
+        System.out.println(bsearch.lastLEItem(c,25) + " " + c[bsearch.lastLEItem(c,25)]);
+
+        System.out.println("--------------------------------");
+        int[] nums = {3,1};
+        int target = 1;
+        System.out.println(bsearch.search1(nums,target));
+
 
     }
 

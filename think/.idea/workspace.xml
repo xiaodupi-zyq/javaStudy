@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,12 +70,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+            <state relative-caret-position="312">
+              <caret line="201" column="23" selection-start-line="201" selection-start-column="23" selection-end-line="201" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1120#1121#0" expanded="true" />
                 <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#4488#4489#0" expanded="true" />
+                <element signature="e#4550#4551#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,9 +167,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="803" />
-    <option name="y" value="1" />
-    <option name="width" value="1193" />
+    <option name="x" value="565" />
+    <option name="y" value="16" />
+    <option name="width" value="1268" />
     <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -220,7 +222,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578385744495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578453240182" />
     <property name="last_opened_file_path" value="E:/springBoot/elasticsearch" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -436,14 +438,7 @@
       <workItem from="1577252595812" duration="6727000" />
       <workItem from="1577338890290" duration="2657000" />
       <workItem from="1577416350317" duration="24174000" />
-      <workItem from="1577971006351" duration="26416000" />
-    </task>
-    <task id="LOCAL-00008" summary="第八章，多态">
-      <created>1565166919835</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1565166919835</updated>
+      <workItem from="1577971006351" duration="33313000" />
     </task>
     <task id="LOCAL-00009" summary="第八章，多态">
       <created>1565229671303</created>
@@ -781,11 +776,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578364318241</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="二分查找，非递归写法与递归写法，以及求某个数的平方根，精确度到小数点后6位">
+      <created>1578386072060</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1578386072060</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="784358000" />
+    <option name="totallyTimeSpent" value="791255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -797,10 +799,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="803" y="1" width="1193" height="1061" extended-state="0" />
+    <frame x="565" y="16" width="1268" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21447484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20115894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -810,7 +812,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.35658914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41091314" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4108527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
@@ -906,7 +908,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15.4 泛型方法" />
     <MESSAGE value="15.5 匿名类 结合泛型 （有些问题，可能是版本问题）" />
     <MESSAGE value="15.9 边界" />
     <MESSAGE value="15.11 问题，任何基本类型无法作为泛型类型参数，一个类不能实现同一个泛型接口的两种变体，泛型擦除类型信息任何需要类型信息的地方不能用，不可重载。&#10;第十五章 泛型，15.12之后相关内容没有看，还看不懂" />
@@ -931,7 +932,8 @@
     <MESSAGE value="链表实现链式栈，包括出栈入栈等操作。" />
     <MESSAGE value="数组队列实现，链式队列实现，递归实现斐波那契数列；&#10;排序：冒泡排序，插入排序，选择排序" />
     <MESSAGE value="排序，归并排序，快速排序，桶排序，计数排序，基数排序的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序，归并排序，快速排序，桶排序，计数排序，基数排序的实现" />
+    <MESSAGE value="二分查找，非递归写法与递归写法，以及求某个数的平方根，精确度到小数点后6位" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找，非递归写法与递归写法，以及求某个数的平方根，精确度到小数点后6位" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1229,6 +1231,12 @@
           <line>108</line>
           <properties />
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1603,12 +1611,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+        <state relative-caret-position="312">
+          <caret line="201" column="23" selection-start-line="201" selection-start-column="23" selection-end-line="201" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#4488#4489#0" expanded="true" />
+            <element signature="e#4550#4551#0" expanded="true" />
           </folding>
         </state>
       </provider>
