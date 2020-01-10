@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCode/LeastKNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/ReCover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/MyLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/MyLinked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/LeastKNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/LeastKNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,20 +63,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4752">
+            <state relative-caret-position="374">
               <caret line="198" column="13" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCode/LeastKNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="392">
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/MyLinked.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/Mytest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -82,12 +102,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4440">
-              <caret line="189" column="47" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="47" />
+            <state relative-caret-position="576">
+              <caret line="221" column="26" lean-forward="true" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4488#4489#0" expanded="true" />
                 <element signature="e#4550#4551#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCode/ReCover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -121,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/guide/IOClient1.java" />
         <option value="$PROJECT_DIR$/src/guide/IOClient.java" />
         <option value="$PROJECT_DIR$/src/guide/IOServer.java" />
         <option value="$PROJECT_DIR$/src/guide/NIOServer.java" />
@@ -159,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/algorithm/LRU.java" />
         <option value="$PROJECT_DIR$/src/algorithm/ABCBA.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Mytest.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/MyLinked.java" />
         <option value="$PROJECT_DIR$/src/algorithm/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/algorithm/MyStack.java" />
         <option value="$PROJECT_DIR$/src/algorithm/MyArrayQueue.java" />
@@ -168,17 +196,19 @@
         <option value="$PROJECT_DIR$/src/algorithm/Sort.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Bsearch.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java" />
         <option value="$USER_HOME$/Desktop/java/17_skiplist/SkipList.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/leetCode/LeastKNumber.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java" />
+        <option value="$PROJECT_DIR$/src/leetCode/ReCover.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/MyLinked.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="843" />
-    <option name="y" value="17" />
-    <option name="width" value="1110" />
+    <option name="x" value="697" />
+    <option name="y" value="25" />
+    <option name="width" value="1271" />
     <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -204,6 +234,13 @@
               <item name="think" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="think" type="b2602c69:ProjectViewProjectNode" />
+              <item name="think" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Bsearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="think" type="b2602c69:ProjectViewProjectNode" />
@@ -237,27 +274,27 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578541774050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578623290951" />
     <property name="last_opened_file_path" value="E:/springBoot/elasticsearch" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java学习\think\think\src\zyq09\shape" />
-      <recent name="E:\java学习\think\think\src\zyq09" />
-      <recent name="E:\java学习\think\think\src\zyq09\music2" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="zyq09.Rodent" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\java学习\think\think\src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="zyq20" />
       <recent name="zyq11" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java学习\think\think\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java学习\think\think\src\zyq09\shape" />
+      <recent name="E:\java学习\think\think\src\zyq09" />
+      <recent name="E:\java学习\think\think\src\zyq09\music2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,26 +309,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeastKNumber">
+  <component name="RunManager" selected="Application.MyLinked">
     <configuration name="Bsearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.Bsearch.Bsearch" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.Bsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Fibonacci" />
-      <module name="think" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +336,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.MyListQueue" />
+    <configuration name="MyLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.MyLinked" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.Sort.*" />
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReCover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.ReCover" />
+      <module name="think" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeastKNumber" />
+        <item itemvalue="Application.MyLinked" />
+        <item itemvalue="Application.ReCover" />
         <item itemvalue="Application.Bsearch" />
+        <item itemvalue="Application.LeastKNumber" />
         <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.MyListQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -454,14 +491,7 @@
       <workItem from="1577338890290" duration="2657000" />
       <workItem from="1577416350317" duration="24174000" />
       <workItem from="1577971006351" duration="37987000" />
-      <workItem from="1578548457086" duration="1422000" />
-    </task>
-    <task id="LOCAL-00010" summary="9.2">
-      <created>1565243091118</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1565243091118</updated>
+      <workItem from="1578548457086" duration="12680000" />
     </task>
     <task id="LOCAL-00011" summary="9.9">
       <created>1565255094729</created>
@@ -799,11 +829,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578453450611</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="数组中最小K个元素">
+      <created>1578550166712</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1578550166712</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="797351000" />
+    <option name="totallyTimeSpent" value="808609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -815,10 +852,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="17" width="1268" height="1061" extended-state="0" />
+    <frame x="697" y="25" width="1271" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2044702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20396367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -827,8 +864,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.27131784" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23809524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.3776301" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36987817" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
@@ -836,7 +873,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.16573972" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013649" side_tool="true" weight="0.3706607" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.17469205" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.1738649" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.42665175" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -924,7 +961,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15.9 边界" />
     <MESSAGE value="15.11 问题，任何基本类型无法作为泛型类型参数，一个类不能实现同一个泛型接口的两种变体，泛型擦除类型信息任何需要类型信息的地方不能用，不可重载。&#10;第十五章 泛型，15.12之后相关内容没有看，还看不懂" />
     <MESSAGE value="第十六章 数组，数组的相关操作，创建，使用，填充，判断相等，排序，二分查找，六个函数，equals、toString、hashcode、sort、fill、binarysearch" />
     <MESSAGE value="17.4 collection ,list 的常用方法" />
@@ -949,7 +985,8 @@
     <MESSAGE value="排序，归并排序，快速排序，桶排序，计数排序，基数排序的实现" />
     <MESSAGE value="二分查找，非递归写法与递归写法，以及求某个数的平方根，精确度到小数点后6位" />
     <MESSAGE value="二分查找的四种变形问题，以及循环有序数组的二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找的四种变形问题，以及循环有序数组的二分查找" />
+    <MESSAGE value="数组中最小K个元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组中最小K个元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1219,18 +1256,6 @@
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/MyLinked.java</url>
-          <line>115</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/MyLinked.java</url>
-          <line>125</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/MyStack.java</url>
           <line>52</line>
           <properties />
@@ -1252,16 +1277,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zyq21/DelayQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zyq21/SynchronizedEvenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1488,20 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Mytest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/MyLinked.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1586,29 +1587,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4752">
+        <state relative-caret-position="374">
           <caret line="198" column="13" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4440">
-          <caret line="189" column="47" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="47" />
+        <state relative-caret-position="576">
+          <caret line="221" column="26" lean-forward="true" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4488#4489#0" expanded="true" />
             <element signature="e#4550#4551#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode/ReCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Mytest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode/LeastKNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="392">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/MyLinked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
         </state>
       </provider>
     </entry>

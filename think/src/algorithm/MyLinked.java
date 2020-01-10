@@ -49,20 +49,19 @@ public class MyLinked {
     }
 
     public void reverse(){
-        Node1 newLast = head;
-        Node1 newHead = head;
-
-        Node1 t = head.node;
-        while (t != null){
-            Node1 node = new Node1();
-            node = t;
-            t = t.node;
-            node.node = newHead;
-            newHead = node;
+        if(head == null){
+            return ;
         }
-        newLast.node = null; //记得最后链表节点为null
-        last = newLast;
-        head = newHead;
+        Node1 p = head;
+        Node1 q = head.node;
+        p.node = null;
+        while(q != null){
+            Node1 tmp = q;
+            q = q.node;
+            tmp.node = p;
+            p = tmp;
+        }
+        head = p;
     }
 
     //环的检测，快慢指针
@@ -112,28 +111,48 @@ public class MyLinked {
         return mergeLinked;
     }
 
-    public void deleteLastNNode(int n){
-        Node1 p = new Node1();
-        Node1 q = new Node1();
-        p.node = q.node = head;
-        for(int i = 0; i < n;i++){
-            if(p == null){
-                System.out.println("链表总长不足： " + n);
-                return;
+    public Node1 FindKthToTail(int k) {
+        Node1 p = head;
+        Node1 q = head;
+        int i = 0;
+        for( ;p!=null ;i++){
+            if(i >= k){
+                q = q.node;
             }
             p = p.node;
         }
-        while (p != last){
-            p = p.node;
-            q = q.node;
-        }
-        if(q.node == head){
-            head = head.node;
+        return i < k? null:q;
+    }
+
+    public void deleteLastNNode(int n){
+        if(n <= 0){
             return;
         }
-        q.node = q.node.node;
+        Node1 p ;
+        Node1 q = new Node1();
+        q.node = p = head;
+        int i = 0;
+        for(;p!=null;i++){
+            if(i >= n){
+                q = q.node;
+            }
+            p = p.node;
+        }
+
+        if(i < n){
+            return;
+        }else{
+            if(q.node == head){
+                head = head.node;
+            }else{
+                q.node = q.node.node;
+            }
+        }
+
 
     }
+
+
 
     public Node1 middle(){
         Node1 p = head;
@@ -173,6 +192,10 @@ public class MyLinked {
         MyLinked mergeLinked = new MyLinked(1);
         mergeLinked = myLinked.merge(myLinked1,myLinked2);
         mergeLinked.out();
+
+        System.out.println("倒数第n个结点：");
+        System.out.println(myLinked.FindKthToTail(1).c);
+
 
         System.out.println("删除倒数第n个结点：");
         myLinked.deleteLastNNode(5);
