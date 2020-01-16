@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="修改链表操作，以及使用小矩形覆盖大矩形的操作">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/MatrixPrintOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/MinNumberStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/NumOf1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/PopOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/PrintTreeOfLevel.java" afterDir="false" />
+    <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/SequenceBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,107 +34,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java">
+        <entry file="file://$PROJECT_DIR$/src/leetCode/SequenceBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5160">
-              <caret line="221" column="26" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4488#4489#0" expanded="true" />
-                <element signature="e#4550#4551#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="432">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetCode/ReCover.java">
+        <entry file="file://$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetCode/MatrixPrintOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="192">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetCode/MinNumberStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetCode/NumOf1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetCode/PopOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetCode/PrintTreeOfLevel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#505#515#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="312">
+              <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
               <folding>
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/jdk/src.zip!/java/util/Deque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="296" lean-forward="true" selection-start-line="296" selection-end-line="296" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/jdk/src.zip!/java/util/ArrayDeque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="298" column="13" selection-start-line="298" selection-start-column="13" selection-end-line="298" selection-end-column="13" />
-              <folding>
-                <element signature="e#15015#15016#0" expanded="true" />
-                <element signature="e#15049#15050#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zyq21/ToastOMatic.java" />
-        <option value="$PROJECT_DIR$/src/zyq21/Chopstick.java" />
         <option value="$PROJECT_DIR$/src/zyq21/Philosopher.java" />
         <option value="$PROJECT_DIR$/src/zyq21/deadLock/Philosopher.java" />
         <option value="$PROJECT_DIR$/src/zyq21/deadLock/FixedDiningPhilosophers.java" />
@@ -219,17 +139,19 @@
         <option value="$PROJECT_DIR$/src/leetCode/ReCover.java" />
         <option value="$PROJECT_DIR$/src/leetCode/MatrixPrintOut.java" />
         <option value="$PROJECT_DIR$/src/leetCode/NumOf1.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/leetCode/PrintTreeOfLevel.java" />
         <option value="$PROJECT_DIR$/src/leetCode/PopOrder.java" />
         <option value="$PROJECT_DIR$/src/leetCode/MinNumberStack.java" />
+        <option value="$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java" />
+        <option value="$PROJECT_DIR$/src/leetCode/SequenceBST.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="811" />
-    <option name="y" value="2" />
-    <option name="width" value="1135" />
+    <option name="x" value="615" />
+    <option name="y" value="32" />
+    <option name="width" value="1403" />
     <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -238,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -269,6 +192,13 @@
               <item name="think" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Bsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="think" type="b2602c69:ProjectViewProjectNode" />
+              <item name="think" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,7 +222,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,8 +231,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579060032573" />
-    <property name="last_opened_file_path" value="E:/springBoot/elasticsearch" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579146039199" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -337,7 +266,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PopOrder">
+  <component name="RunManager" selected="Application.Bsearch">
+    <configuration name="Bsearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Bsearch.Bsearch" />
+      <module name="think" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.Bsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatrixPrintOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.MatrixPrintOut" />
       <module name="think" />
@@ -390,26 +332,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReCover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.ReCover" />
-      <module name="think" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bsearch" />
         <item itemvalue="Application.PopOrder" />
         <item itemvalue="Application.NumOf1" />
         <item itemvalue="Application.MatrixPrintOut" />
         <item itemvalue="Application.MyLinked" />
-        <item itemvalue="Application.ReCover" />
       </list>
     </recent_temporary>
   </component>
@@ -521,14 +450,10 @@
       <workItem from="1577971006351" duration="37987000" />
       <workItem from="1578548457086" duration="19564000" />
       <workItem from="1578900152527" duration="1452000" />
-      <workItem from="1578918092672" duration="8782000" />
-    </task>
-    <task id="LOCAL-00012" summary="第九章 接口">
-      <created>1565321393713</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1565321393713</updated>
+      <workItem from="1578918092672" duration="20756000" />
+      <workItem from="1579145549446" duration="275000" />
+      <workItem from="1579145867049" duration="174000" />
+      <workItem from="1579146065369" duration="1208000" />
     </task>
     <task id="LOCAL-00013" summary="10.4">
       <created>1565340382642</created>
@@ -866,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578623417444</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="牛客网以及算法相关题目及实现">
+      <created>1579060081929</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1579060081929</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="825727000" />
+    <option name="totallyTimeSpent" value="839358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -882,10 +814,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="2" width="1135" height="1017" extended-state="0" />
-    <editor active="true" />
+    <frame x="615" y="32" width="1403" height="1017" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23813954" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19880864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -894,14 +825,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.39464495" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986351" weight="0.37750557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37193763" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16573972" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1653085" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013649" side_tool="true" weight="0.3706607" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.1738649" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.42665175" />
@@ -991,7 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第十六章 数组，数组的相关操作，创建，使用，填充，判断相等，排序，二分查找，六个函数，equals、toString、hashcode、sort、fill、binarysearch" />
     <MESSAGE value="17.4 collection ,list 的常用方法" />
     <MESSAGE value="17.9 hashCode" />
     <MESSAGE value="第十七章，容器深入理解，hashcode，不同容器不同的底层原理，相关的性能比较，以及实用的方法" />
@@ -1016,7 +946,8 @@
     <MESSAGE value="二分查找的四种变形问题，以及循环有序数组的二分查找" />
     <MESSAGE value="数组中最小K个元素" />
     <MESSAGE value="修改链表操作，以及使用小矩形覆盖大矩形的操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改链表操作，以及使用小矩形覆盖大矩形的操作" />
+    <MESSAGE value="牛客网以及算法相关题目及实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="牛客网以及算法相关题目及实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1321,48 +1252,16 @@
           <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/guide/MultiThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guide/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guide/My.java" />
-    <entry file="file://$PROJECT_DIR$/src/guide/ThreadLocalExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guide/LockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/guide/MyRunnable.java" />
     <entry file="jar://E:/jdk/jre/lib/rt.jar!/javax/swing/text/JTextComponent.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1610,18 +1509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5160">
-          <caret line="221" column="26" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4488#4489#0" expanded="true" />
-            <element signature="e#4550#4551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode/ReCover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1647,24 +1534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode/MatrixPrintOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode/PrintTreeOfLevel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1676,10 +1545,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode/PopOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/leetCode/Convert.java" />
+    <entry file="jar://E:/jdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="283" column="20" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode/MatrixPrintOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode/MinNumberStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1690,10 +1581,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode/MinNumberStack.java">
+    <entry file="file://$PROJECT_DIR$/src/leetCode/PopOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Bsearch/Bsearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1738">
+          <caret line="175" column="46" lean-forward="true" selection-start-line="175" selection-start-column="46" selection-end-line="175" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4488#4489#0" expanded="true" />
+            <element signature="e#4550#4551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode/SequenceBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/BinarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
