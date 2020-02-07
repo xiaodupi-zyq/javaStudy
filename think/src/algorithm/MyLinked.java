@@ -153,7 +153,10 @@ public class MyLinked {
     }
 
 
-
+    /**
+     * 寻找两个链表的第一个公共节点
+     * @return
+     */
     public Node1 middle(){
         Node1 p = head;
         Node1 q = head;
@@ -162,6 +165,27 @@ public class MyLinked {
             q = q.node;
         }
         return q;
+    }
+
+    public Node1 FindFirstCommonNode(Node1 pHead1, Node1 pHead2) {
+        Node1 p1 = pHead1;
+        Node1 p2 = pHead2;
+        if(p1 == null || p2 == null){
+            return null;
+        }
+        while(p1 != p2){
+            p1 = p1.node;
+            p2 = p2.node;
+            if(p1 != p2){
+                if(p1 == null){
+                    p1 = pHead2;
+                }
+                if(p2 == null){
+                    p2 = pHead1;
+                }
+            }
+        }
+        return p1;
     }
 
 
