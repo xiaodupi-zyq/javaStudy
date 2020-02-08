@@ -1,4 +1,4 @@
-package leetCode;
+package LeetCode;
 
 /**
  * @Author: zyq-xiaoliuzi

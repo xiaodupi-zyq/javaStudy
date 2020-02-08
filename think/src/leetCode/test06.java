@@ -1,4 +1,4 @@
-package leetCode;
+package LeetCode;
 
 public class test06 {
     public String z(String s,int numRows){

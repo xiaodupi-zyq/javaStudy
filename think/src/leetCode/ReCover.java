@@ -1,4 +1,4 @@
-package leetCode;
+package LeetCode;
 
 /**
  * 使用小矩形覆盖大矩形
