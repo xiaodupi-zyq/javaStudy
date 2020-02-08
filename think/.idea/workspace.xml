@@ -4,16 +4,6 @@
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/algorithm/Graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/LeastKNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/LeastKNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/MatrixPrintOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MatrixPrintOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/MinNumberStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MinNumberStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/NumOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/NumOf1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/PrintTreeOfLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/PrintTreeOfLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/ReCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ReCover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/SequenceBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/SequenceBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/test06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/PopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/PopOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/SequenceBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="276">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -62,8 +52,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="1863">
+              <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/ReCover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="115">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -204,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/LeetCode/MinNumber.java" />
         <option value="$PROJECT_DIR$/src/algorithm/MyLinked.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ReverseSen.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/Graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/PopOrder.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ConvertTreeToList.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/LeastKNumber.java" />
@@ -215,11 +207,13 @@
         <option value="$PROJECT_DIR$/src/LeetCode/ReCover.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/SequenceBST.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/test06.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Graph/Graph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="725" />
+    <option name="x" value="755" />
+    <option name="y" value="5" />
     <option name="width" value="1160" />
     <option name="height" value="1060" />
   </component>
@@ -229,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,24 +261,12 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="PrintTreeOfLevel.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
-            <path>
-              <item name="think" type="b2602c69:ProjectViewProjectNode" />
-              <item name="think" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zyq21" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="think" type="b2602c69:ProjectViewProjectNode" />
-              <item name="think" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zyq21" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,7 +276,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581150002880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581155491626" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -529,14 +510,8 @@
       <workItem from="1580818631789" duration="599000" />
       <workItem from="1580991108440" duration="1343000" />
       <workItem from="1581058273570" duration="1287000" />
-      <workItem from="1581149099246" duration="836000" />
-    </task>
-    <task id="LOCAL-00014" summary="10.4">
-      <created>1566552795800</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1566552795800</updated>
+      <workItem from="1581149099246" duration="4305000" />
+      <workItem from="1581165654685" duration="528000" />
     </task>
     <task id="LOCAL-00015" summary="10.5">
       <created>1566886593140</created>
@@ -874,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581060424158</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="1">
+      <created>1581150039126</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1581150039127</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="871815000" />
+    <option name="totallyTimeSpent" value="875812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,10 +872,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="580" y="0" width="928" height="848" extended-state="0" />
-    <editor active="true" />
+    <frame x="604" y="4" width="928" height="848" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30114943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -910,9 +891,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.1653085" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013649" side_tool="true" weight="0.3706607" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50229883" side_tool="true" weight="0.37430167" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.1738649" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.37430167" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49770114" weight="0.37430167" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -999,7 +980,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17.9 hashCode" />
     <MESSAGE value="第十七章，容器深入理解，hashcode，不同容器不同的底层原理，相关的性能比较，以及实用的方法" />
     <MESSAGE value="18.8" />
     <MESSAGE value="第十八章，JAVA的IO ，主要讲述了java文件的输入输出，标准IO，对象的序列化，持久性，序列化的特性控制，主要还是理解序列化及其持久性控制，以及文件的输入输出流的相关问题，ByteBuffer的不同窗口对底层的影响" />
@@ -1024,7 +1004,8 @@
     <MESSAGE value="修改链表操作，以及使用小矩形覆盖大矩形的操作" />
     <MESSAGE value="牛客网以及算法相关题目及实现" />
     <MESSAGE value="牛客网剑指Offer相关题目及实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="牛客网剑指Offer相关题目及实现" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1599,10 +1580,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/MatrixPrintOut.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ReverseSen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/SequenceBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/test06.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/PrintTreeOfLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ReCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1627,48 +1639,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/PrintTreeOfLevel.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MatrixPrintOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/ReCover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/test06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/ReverseSen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/SequenceBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="1863">
+          <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
