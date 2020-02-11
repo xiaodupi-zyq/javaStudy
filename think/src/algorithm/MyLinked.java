@@ -2,6 +2,16 @@ package algorithm;
 
 import java.util.Random;
 
+ class ListNode {
+     int val;
+     ListNode next;
+     ListNode(int x) {
+         val = x;
+         next = null;
+     }
+ }
+
+
 public class MyLinked {
     private Node1 head;
     private Node1 last;
@@ -154,7 +164,7 @@ public class MyLinked {
 
 
     /**
-     * 寻找两个链表的第一个公共节点
+     * 寻链表中间点
      * @return
      */
     public Node1 middle(){
@@ -167,6 +177,12 @@ public class MyLinked {
         return q;
     }
 
+    /**
+     * 寻找两个链表的第一公共节点
+     * @param pHead1
+     * @param pHead2
+     * @return
+     */
     public Node1 FindFirstCommonNode(Node1 pHead1, Node1 pHead2) {
         Node1 p1 = pHead1;
         Node1 p2 = pHead2;
@@ -186,6 +202,37 @@ public class MyLinked {
             }
         }
         return p1;
+    }
+
+    /**
+     * 将链表重新排列成，L0-Ln-L1-Ln-1 。。。。的形式
+     * @param head
+     */
+    public void reorderList(ListNode head) {
+        if(head == null || head.next == null){
+            return;
+        }
+        ListNode p = head;
+        while(p.next != null && p.next.next != null){
+            ListNode q = getEnd(p);
+            q.next = p.next;
+            p.next = q;
+            p = q.next;
+        }
+    }
+    public ListNode getEnd(ListNode head){
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode p = head;
+        ListNode q = new ListNode(Integer.MIN_VALUE);
+        q.next = p;
+        while(p.next != null){
+            p = p.next;
+            q = q.next;
+        }
+        q.next = null;
+        return p;
     }
 
 
