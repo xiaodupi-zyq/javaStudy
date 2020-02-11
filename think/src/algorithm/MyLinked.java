@@ -121,6 +121,11 @@ public class MyLinked {
         return mergeLinked;
     }
 
+    /**
+     * 查找倒数第K个节点
+     * @param k
+     * @return
+     */
     public Node1 FindKthToTail(int k) {
         Node1 p = head;
         Node1 q = head;
