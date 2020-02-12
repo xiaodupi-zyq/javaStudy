@@ -8,8 +8,13 @@ package algorithm.Graph;
  */
 
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
+
+class UndirectedGraphNode {
+    int label;
+    ArrayList<UndirectedGraphNode> neighbors;
+    UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
+};
 
 /**
  *无向图
@@ -127,6 +132,38 @@ public class Graph {
                 recurDfs(q,t,visited,prev);
             }
         }
+    }
+
+    /**
+     * 深度复制图，（采用bfs广度优先遍历复制）
+     * @param node
+     * @return
+     */
+    public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+        if(node == null){
+            return null;
+        }
+        Map<UndirectedGraphNode,UndirectedGraphNode> map = new HashMap<>();
+        Queue<UndirectedGraphNode> queue = new LinkedList<>();
+        queue.add(node);
+        while(!queue.isEmpty()){
+            UndirectedGraphNode p = queue.poll();
+            for(UndirectedGraphNode item : p.neighbors){
+                if(!map.containsKey(item)){
+                    queue.add(item);
+                }
+            }
+            UndirectedGraphNode q = new UndirectedGraphNode(p.label);
+            map.put(p,q);
+        }
+        for(UndirectedGraphNode item : map.keySet()){
+            UndirectedGraphNode tmp = map.get(item);
+            for(UndirectedGraphNode neighbor : item.neighbors){
+                tmp.neighbors.add(map.get(neighbor));
+            }
+        }
+        UndirectedGraphNode newNode = map.get(node);
+        return newNode;
     }
 
 
