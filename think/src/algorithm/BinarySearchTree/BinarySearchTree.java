@@ -10,6 +10,15 @@ import java.util.Stack;
  * @Date: Created in 9:19 2020/1/15
  * @Modified By:
  */
+
+class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode(int x) { val = x; }
+}
+
+
 public class BinarySearchTree {
   public static class Node{
     private int data;
@@ -222,6 +231,40 @@ public class BinarySearchTree {
       }
     }
     return list;
+  }
+
+  /**
+   * 求二叉树所有路径表示的数字的和
+   * @param root
+   * @return
+   */
+  public int sumNumbers(TreeNode root) {
+    int sum = 0;
+    if(root == null){
+      return sum;
+    }
+    return preOrderSum(root,sum);
+  }
+
+  /**
+   * 前序遍历求和，二叉树之后等于左右二叉树之和之和
+   * @param root
+   * @param sum
+   * @return
+   */
+  public int preOrderSum(TreeNode root,int sum){
+    //如果根节点为null，返回0
+    if(root == null){
+      return 0;
+    }
+    //否则sum=sum * 10 + 根节点的值
+    sum = sum * 10 + root.val;
+    //如果左右节点都为null说明节点为叶子节点
+    if(root.left == null && root.right == null){
+      return sum;
+    }
+    //否则返回左右节点之和
+    return preOrderSum(root.left,sum) + preOrderSum(root.right,sum);
   }
 
 }
