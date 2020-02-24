@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.DynamicProgramming;
 
 /**
  * @Author: zyq-xiaoliuzi
@@ -44,7 +44,7 @@ public class Pattern {
             return;
         }
         if(pattern[pj] == '*'){ //匹配任意个字符
-            for(int k = 0; k < tlen - ti; k++){
+            for(int k = 0; k <= tlen - ti; k++){
                 rmatch(ti + k,pj + 1,text,tlen);
             }
         }else if(pattern[pj] == '?'){ //匹配0个或者1个字符
@@ -55,9 +55,50 @@ public class Pattern {
         }
     }
 
+    /**
+     * .匹配任意字符，*匹配零个到任意个
+     * @param str
+     * @param pattern
+     * @return
+     */
+    public boolean match(char[] str, char[] pattern)
+    {
+        return rmatch(str,0,pattern,0);
+    }
+
+    /**
+     * 具体匹配
+     * @param str
+     * @param si
+     * @param pattern
+     * @param pj
+     * @return
+     */
+    public boolean rmatch(char[] str,int si, char[] pattern,int pj){
+        if(si == str.length && pj == pattern.length){
+            return true;
+        }else if(pj == pattern.length){
+            return false;
+        }
+        boolean next = (pj+1 < pattern.length && pattern[pj+1] == '*');
+        if(next){
+            if(si < str.length && (pattern[pj] == '.' || pattern[pj] == str[si])){
+                return rmatch(str,si,pattern,pj+2) || rmatch(str,si+1,pattern,pj);
+            }else{
+                return rmatch(str,si,pattern,pj+2);
+            }
+        }else{
+            if(si < str.length && (pattern[pj] == '.' || pattern[pj] == str[si])){
+                return rmatch(str,si+1,pattern,pj+1);
+            }else{
+                return false;
+            }
+        }
+    }
+
     public static void main(String[] args){
-        Pattern p = new Pattern("zxcvb".toCharArray(),5);
-        p.match("zxfdd".toCharArray(),5);
+        Pattern p = new Pattern("c?a?b".toCharArray(),5);
+        p.match("aab".toCharArray(),5);
         System.out.println(p.matched);
     }
 }
