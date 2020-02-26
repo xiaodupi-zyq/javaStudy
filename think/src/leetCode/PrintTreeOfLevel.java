@@ -18,9 +18,7 @@ class TreeNode {
 
     public TreeNode(int val) {
         this.val = val;
-
     }
-
 }
 public class PrintTreeOfLevel {
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
