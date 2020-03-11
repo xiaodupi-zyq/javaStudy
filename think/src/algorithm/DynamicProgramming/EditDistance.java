@@ -57,7 +57,7 @@ public class EditDistance {
             }else if(j != 0){
                 minDist[0][j] = minDist[0][j-1] + 1;
             }else {
-                minDist[0][j] = 1;
+                minDist[0][j] = 1; //j=0而且a[0]!=b[j]
             }
         }
         for(int i = 0; i < n; i++){
@@ -118,5 +118,9 @@ public class EditDistance {
         if (y > maxv) maxv = y;
         if (z > maxv) maxv = z;
         return maxv;
+    }
+    public static void main(String[] args){
+        EditDistance lwst = new EditDistance();
+        System.out.println(lwst.lwstDP("horse".toCharArray(),5,"ros".toCharArray(),3));
     }
 }

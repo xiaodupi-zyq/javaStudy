@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Random;
 
- class ListNode {
+class ListNode {
      int val;
      ListNode next;
      ListNode(int x) {
@@ -163,7 +163,6 @@ public class MyLinked {
                 q.node = q.node.node;
             }
         }
-
 
     }
 
