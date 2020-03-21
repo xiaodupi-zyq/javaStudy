@@ -1,5 +1,8 @@
 package LeetCode;
 
+import java.util.Collections;
+import java.util.PriorityQueue;
+
 /**
  * @Author: zyq-xiaoliuzi
  * @Description:
@@ -48,5 +51,26 @@ public class MaxSumAndProduct {
             Max = Math.max(Max, imax);
         }
         return Max;
+    }
+}
+
+
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
+        for(int i = 0; i < nums.length;i++){
+            queue.add(nums[i]);
+        }
+        int j = 1;
+        while (!queue.isEmpty() && j < k){
+            queue.poll();
+            j++;
+        }
+        return queue.poll();
+    }
+    public static void main(String[] args){
+        Solution solution = new Solution();
+        int[] nums = {3,2,3,1,2,4,5,5,6};
+        solution.findKthLargest(nums,4);
     }
 }
