@@ -1,9 +1,6 @@
 package LeetCode;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.Random;
+import java.util.*;
 
 /**
  * @Author: zyq-xiaoliuzi
@@ -53,12 +50,11 @@ public class SerializeTreeNode {
         }
         return root;
     }
-
     public static void main(String[] args){
         TreeNode root = new TreeNode(13);
         root.left = new TreeNode(1234);
         root.right = new TreeNode(34);
-        root.left.left = new TreeNode(245);
+        root.left.left = null;
         root.left.right = null;
         root.right.left = new TreeNode(43);
         root.right.right = new TreeNode(324);

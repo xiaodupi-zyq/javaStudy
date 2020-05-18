@@ -267,4 +267,26 @@ public class BinarySearchTree {
     return preOrderSum(root.left,sum) + preOrderSum(root.right,sum);
   }
 
+  /**
+   * 最大路径和
+   * @param root
+   * @return
+   */
+  int maxPath = Integer.MIN_VALUE;
+  public int maxPathSum(TreeNode root){
+    getMaxPath(root);
+    return maxPath;
+  }
+  public int getMaxPath(TreeNode root){
+    if(root == null){
+      return 0;
+    }
+    //如果左右子树有一个对最后的贡献值为负数，肯定要舍弃这个子树的贡献值
+    int left = Math.max(0,getMaxPath(root.left));
+    int right = Math.max(0,getMaxPath(root.right));
+    //记录到目前为止最大的路径
+    maxPath = Math.max(maxPath,root.val + left + right);
+    return Math.max(left,right) + root.val;
+  }
+
 }
