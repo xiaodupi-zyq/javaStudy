@@ -93,6 +93,20 @@ class Solution {
         Solution solution = new Solution();
         solution.letterCombinations("23");
         System.out.println(solution.list);
-
+        Queue<Integer> queue = new LinkedList<>();
+        queue.poll();
     }
 }
+
+//class Solution1 {
+//    ArrayList<String> result = new ArrayList<String>();
+//    public ArrayList<String> Permutation(String str) {
+//        char[] arrayChar = str.toCharArray();
+//        if(arrayChar.length == 0){
+//            return result;
+//        }
+//        result = PermutationString(arrayChar,arrayChar.length,arrayChar.length);
+//        Collections.sort(result);
+//        return result;
+//    }
+//}
