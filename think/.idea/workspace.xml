@@ -2,56 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/FindLongestTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/Sort/SortStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam/VersionCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide/GCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide/Person1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/AddNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Duplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/FullSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/GetMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/HasPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/InversePairsSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/IsNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/LastRemainingMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/MoreThanHalfOfNUM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/NextNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/NumberOfK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/PatitionMaxNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/ReverseKGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/TreeConvertToList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/FindTargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/GoldCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LeastInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/PathSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ReconstructQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ZeroArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam/MergeStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide/TestDefault.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/CombinationSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/CombinationSum1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/ConvertTreeToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ConvertTreeToList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/FindNumsOnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/FindNumsOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/HasStrPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/HasStrPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/LeastKNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/LeastKNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/MatrixPrintOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MatrixPrintOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/MaxSumAndProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MaxSumAndProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/MinNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MinNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/MinNumberStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MinNumberStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/MovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/MovingCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/NumOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/NumOf1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/PopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/PopOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/PrintTreeOfLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/PrintTreeOfLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/ReCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ReCover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/ReverseSen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ReverseSen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/SequenceBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/SequenceBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/SerializeTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/SerializeTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/SingleNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/SingleNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/TreeCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/TreeCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/UglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/UglyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/test06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort/SortStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort/SortStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/VersionCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/VersionCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +70,17 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589815804244" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -133,13 +100,13 @@
       <recent name="E:\java学习\think\think\src\zyq09\music2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VersionCompare">
-    <configuration name="FindLongestTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.FindLongestTree" />
+  <component name="RunManager" selected="Application.TestDefault">
+    <configuration name="CountDownLatchExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide.CountDownLatchExample1" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="guide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatitionMaxNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.PatitionMaxNum" />
+    <configuration name="CyclicBarrierExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide.CyclicBarrierExample2" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offer.*" />
+          <option name="PATTERN" value="guide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Sort.SortStudy" />
+    <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.GenerateParenthesis" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.Sort.*" />
+          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VersionCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam.VersionCompare" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Main" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam.*" />
+          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.t" />
+    <configuration name="TestDefault" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide.TestDefault" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offer.*" />
+          <option name="PATTERN" value="guide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PatitionMaxNum" />
-      <item itemvalue="Application.t" />
-      <item itemvalue="Application.FindLongestTree" />
-      <item itemvalue="Application.SortStudy" />
-      <item itemvalue="Application.VersionCompare" />
+      <item itemvalue="Application.CountDownLatchExample1" />
+      <item itemvalue="Application.CyclicBarrierExample2" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.GenerateParenthesis" />
+      <item itemvalue="Application.TestDefault" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VersionCompare" />
-        <item itemvalue="Application.SortStudy" />
-        <item itemvalue="Application.FindLongestTree" />
-        <item itemvalue="Application.PatitionMaxNum" />
-        <item itemvalue="Application.t" />
+        <item itemvalue="Application.TestDefault" />
+        <item itemvalue="Application.GenerateParenthesis" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CyclicBarrierExample2" />
+        <item itemvalue="Application.CountDownLatchExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -412,14 +379,8 @@
       <workItem from="1595159044994" duration="6892000" />
       <workItem from="1595291942107" duration="89000" />
       <workItem from="1595333842172" duration="6873000" />
-      <workItem from="1595405477684" duration="2736000" />
-    </task>
-    <task id="LOCAL-00030" summary="14.8 空对象">
-      <created>1568946617480</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1568946617480</updated>
+      <workItem from="1595405477684" duration="16837000" />
+      <workItem from="1595488683339" duration="61538000" />
     </task>
     <task id="LOCAL-00031" summary="第14章 类型信息 RTTI，Class对象，动态的isInstanceof，动态代理以及空对象等（本章较为难以理解，需要加油回顾）">
       <created>1568948665159</created>
@@ -757,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584799014790</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="1">
+      <created>1595426285061</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1595426285062</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -828,58 +796,78 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="504" y="161" key="#Notifications" timestamp="1595490008291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="504" y="161" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1595490008291" />
     <state x="654" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591274213938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="654" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591274213938" />
-    <state x="1054" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1593509073369">
+    <state x="1054" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1596442609338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1054" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593509073369" />
+    <state x="1054" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596442609338" />
     <state x="731" y="412" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592297547046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="412" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1592297547046" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1595426233509">
+    <state x="504" y="112" key="CommitChangelistDialog2" timestamp="1595426281054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1595426233509">
+    <state x="504" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595426281054" />
+    <state width="1876" height="208" key="GridCell.Tab.0.bottom" timestamp="1596632185589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1595426233509">
+    <state width="1876" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596632185589" />
+    <state width="1876" height="208" key="GridCell.Tab.0.center" timestamp="1596632185589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1595426233509">
+    <state width="1876" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596632185589" />
+    <state width="1876" height="208" key="GridCell.Tab.0.left" timestamp="1596632185589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state width="1877" height="222" key="GridCell.Tab.1.bottom" timestamp="1595426233509">
+    <state width="1876" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596632185589" />
+    <state width="1876" height="208" key="GridCell.Tab.0.right" timestamp="1596632185589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state width="1877" height="222" key="GridCell.Tab.1.center" timestamp="1595426233509">
+    <state width="1876" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596632185589" />
+    <state width="900" height="393" key="GridCell.Tab.1.bottom" timestamp="1595517692228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state width="1877" height="222" key="GridCell.Tab.1.left" timestamp="1595426233509">
+    <state width="900" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595517692228" />
+    <state width="900" height="393" key="GridCell.Tab.1.center" timestamp="1595517692228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state width="1877" height="222" key="GridCell.Tab.1.right" timestamp="1595426233509">
+    <state width="900" height="393" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595517692228" />
+    <state width="900" height="393" key="GridCell.Tab.1.left" timestamp="1595517692228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595426233509" />
-    <state x="585" y="123" key="SettingsEditor" timestamp="1595292030361">
+    <state width="900" height="393" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595517692228" />
+    <state width="900" height="393" key="GridCell.Tab.1.right" timestamp="1595517692228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595292030361" />
-    <state x="1064" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1594042052860">
+    <state width="900" height="393" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595517692228" />
+    <state x="485" y="135" width="1319" height="716" key="SettingsEditor" timestamp="1595490017823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1064" y="257" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594042052860" />
+    <state x="485" y="135" width="1319" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595490017823" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595426291797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595426291797" />
+    <state x="468" y="122" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596442309517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="122" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596442309517" />
+    <state x="657" y="246" key="run.anything.popup" timestamp="1595489408793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="246" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595489408793" />
+    <state x="1064" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1596099443713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1064" y="257" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596099443713" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1231,37 +1219,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exam/VersionCompare.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="175" />
+          <line>12</line>
+          <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exam/VersionCompare.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="176" />
+          <line>27</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/FindTargetSum.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="cache.map" />
-        <watch expression="queue" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

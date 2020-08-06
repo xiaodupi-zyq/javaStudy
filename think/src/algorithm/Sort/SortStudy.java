@@ -97,6 +97,77 @@ public class SortStudy {
         }
     }
 
+    /**
+     * 归并排序
+     * @param a
+     */
+    public static void mergeSort(int[] a){
+        int start = 0;
+        int end = a.length - 1;
+        mergeSortC(a,start,end);
+
+    }
+    public static void mergeSortC(int[] a,int start,int end){
+        if(start >= end){
+            return;
+        }
+        int mid = (start + end) /2;
+        mergeSortC(a,start,mid);
+        mergeSortC(a,mid+1,end);
+        merge(a,start,mid,end);
+    }
+    public static void merge(int[] a,int start,int mid,int end){
+        int[] b = new int[a.length];
+        int q = start;
+        int p = mid+1;
+        int k = start;
+        while(q <= mid && p <= end){
+            if(a[q] <= a[p]){
+                b[k++] = a[q++];
+            }else{
+                b[k++] = a[p++];
+            }
+        }
+        while(q <= mid){
+            b[k++] = a[q++];
+        }
+        while(p <= end){
+            b[k++] = a[p++];
+        }
+        for(int i = start; i <= end; i++){
+            a[i] = b[i];
+        }
+    }
+
+    public static void quickSort(int[] a){
+        quickSortC(a,0,a.length-1);
+    }
+    public static void quickSortC(int[] a,int start,int end){
+        if(start >= end){
+            return;
+        }
+        int mid = partition(a,start,end);
+        quickSortC(a,start,mid-1);
+        quickSortC(a,mid+1,end);
+    }
+    public static int partition(int[] a,int start,int end){
+        int val = a[end];
+        int i = start;
+        //将所有小于a[end]的数字移到前面
+        for(int j = start; j < end; j++){
+            if(a[j] < val){
+                int tmp = a[i];
+                a[i] = a[j];
+                a[j] = tmp;
+                i++;
+            }
+        }
+        int tmp = a[i];
+        a[i] = a[end];
+        a[end] = tmp;
+        return i;
+    }
+
 
 
     public static void main(String [] args){
@@ -114,16 +185,16 @@ public class SortStudy {
         out(a);
         selectionSort(a);
         out(a);
-//        System.out.println("---------------");
-//        a = arrayGenerator(9);
-//        out(a);
-//        mergeSort(a);
-//        out(a);
-//        System.out.println("---------------");
-//        a = arrayGenerator(11);
-//        out(a);
-//        quickSort(a);
-//        out(a);
+        System.out.println("---------------");
+        a = arrayGenerator(10);
+        out(a);
+        mergeSort(a);
+        out(a);
+        System.out.println("---------------");
+        a = arrayGenerator(11);
+        out(a);
+        quickSort(a);
+        out(a);
 //        System.out.println("---------------");
 //        a = arrayGenerator(20);
 //        out(a);
