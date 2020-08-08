@@ -2,15 +2,440 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e889807-e932-451d-b188-792bd97486fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exam/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exam/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exam/MergeStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exam/VersionCompare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exam/inputOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/ArrayNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/Money$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/MultiDimArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/NewVarArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/Test17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/think/zyq05/VarargType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/util/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/util/Range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq05/ArrayNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq05/ArrayNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq05/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq05/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq05/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq05/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq05/MultiDimArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq05/MultiDimArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq05/NewVarArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq05/NewVarArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq05/Test17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq05/Test17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq05/VarargType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq05/VarargType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq06/Dinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq06/Dinner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq06/access/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq06/access/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq06/access/Lunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq06/access/Lunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq06/access/Widget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq06/access/Widget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq06/access/local/Foreign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq06/access/local/Foreign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq06/access/local/PackagesClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq06/access/local/PackagesClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq06/dessert/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq06/dessert/Cookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Bath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Bath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Beetle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Beetle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/BlankFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/BlankFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/CADSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/CADSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Cartoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Cartoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Chess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Dell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Dell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Detergent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Detergent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/FinalArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/FinalArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/FinalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/FinalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/FinalOverridingIllusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/FinalOverridingIllusion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Hide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Hide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Jurassic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Jurassic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/PlaceSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/PlaceSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Root.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/SpaceShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/SpaceShipControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/SpaceShipControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/SpaceShipDelegation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/SpaceShipDelegation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Test716.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Test716.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Test718.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Test718.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Test719.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Test719.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Test720.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Test720.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Test721.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Test721.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/Test723.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/Test723.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq07/newpackage/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq07/newpackage/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/CovariantReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/CovariantReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/Cycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/PolyConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/PolyConstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/PrivateOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/PrivateOverride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/RTTI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/RTTI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/StaticPolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/StaticPolymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/Test810.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/Test810.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/Test816.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/Test816.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/Transmogrify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/Transmogrify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Music2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Music2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Music3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Music3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Percussion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Percussion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Wind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/music/Woodwind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/music/Woodwind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/shape/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/shape/RandomShapeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/shape/RandomShapeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/shape/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/shape/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/shape/Shapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/shape/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/shape/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/shape/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq08/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq08/shape/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Adventure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Factories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Factories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Mouths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Mouths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/NewGames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/NewGames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/RandomWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/RandomWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Rodent/Gerbil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Rodent/Gerbil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Rodent/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Rodent/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Rodent/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Rodent/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Rodent/Rodent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Rodent/Rodent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Rodent/Test907.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Rodent/Test907.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Supershape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Supershape/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Test902.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Test902.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Test903.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Test903.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Test904.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Test904.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Test913.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Test913.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/Test914.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/Test914.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/apply/Apply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/apply/Apply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Brass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Brass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Music4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Music4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Percussion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Percussion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Stringed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Stringed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Wind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music/Woodwind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music/Woodwind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Brass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Brass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Music4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Music4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Percussion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Percussion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Stringed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Stringed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Wind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/music2/Woodwind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/music2/Woodwind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/shape/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/shape/RandomShapeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/shape/RandomShapeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/shape/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/shape/Shapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/shape/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/shape/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/shape/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq09/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq09/shape/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Callbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Callbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/ClassInInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/ClassInInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Contents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Contents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/DotNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/DotNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/DotThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/DotThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Factories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Factories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/InheritInner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/InheritInner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/MultiInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/MultiInterfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Parcel7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Parcel7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Percel4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Percel4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/control/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/control/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/control/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/control/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/control/GreenhouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/control/GreenhouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/control/GreenhouseControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/control/GreenhouseControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1007.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1017.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1018.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1019.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1019.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test10191.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test10191.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/test/Test1023.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/test/Test1023.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/testpackage1/Test1006_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/testpackage1/Test1006_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/testpackage2/Test1006_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/testpackage2/Test1006_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq10/testpackage3/Test1006_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq10/testpackage3/Test1006_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/AddingGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/AddingGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/ApplesAndOrangeWithGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/ApplesAndOrangeWithGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/ApplesAndOrangesWithoutGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/ApplesAndOrangesWithoutGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/AsListInference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/AsListInference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/Gerbil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/Gerbil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/LinkedListFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/LinkedListFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/MapOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/MapOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/PetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/PetMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/PrintingContainers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/PrintingContainers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/PriorityQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/PriorityQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/SetOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/SetOfInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/test/Ex18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/test/Ex18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/test/SimpleCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/test/SimpleCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/test/Test1104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/test/Test1104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/test/Test1107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/test/Test1107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/test/Test1112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/test/Test1112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq11/test/Test1127.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq11/test/Test1127.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/AlwaysFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/AlwaysFinally.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/DynamicFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/DynamicFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/ExceptionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/ExceptionMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/FinallyWorks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/FinallyWorks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/FullConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/FullConstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/InheritingExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/InheritingExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/InputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/InputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/LoggingExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/LoggingExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/LoggingExceptions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/LoggingExceptions2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/LostMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/LostMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/MultipleReturns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/MultipleReturns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/NeverCaught.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/NeverCaught.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/OnOffException1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/OnOffException1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/OnOffException2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/OnOffException2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/OnOffSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/OnOffSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/RethrowNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/RethrowNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/Rethrowing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/Rethrowing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/StormyInning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/StormyInning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/WhoCalled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/WhoCalled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/test/Test1201.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/test/Test1201.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/test/Test1202.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/test/Test1202.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/test/Test1203.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/test/Test1203.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/test/Test1204.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/test/Test1204.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq12/test/Test1209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq12/test/Test1209.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/DatabaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/DatabaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/Immutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/InfiniteRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/InfiniteRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/SimpleFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/SimpleFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/SimpleRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/SimpleRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/SplitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/SplitDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/StartEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/StartEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/Turtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/UsingStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/UsingStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/test/Test1310.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/test/Test1310.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/test/Test1311.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/test/Test1311.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/zyq1306/Finding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/zyq1306/Finding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/zyq1306/IntegerMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/zyq1306/IntegerMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/zyq1306/Rudolph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/zyq1306/Rudolph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/zyq1306/Splitting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/zyq1306/Splitting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/zyq1306/TestRegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/zyq1306/TestRegularExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq13/zyq1306/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq13/zyq1306/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/FamilyVsExactType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/FamilyVsExactType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/FilledList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/FilledList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/GenericClassReferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/GenericClassReferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/HiddenC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/HiddenC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/HiddenImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/HiddenImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/InterfaceViolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/InterfaceViolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Null.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Null.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/RegisteredFactories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/RegisteredFactories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Shapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/ShowMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/ShowMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/SimpleDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/SimpleDynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/SimpleProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/SimpleProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/SnowRemoveRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/SnowRemoveRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/SweetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/SweetShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/ToyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/ToyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/test/Test1408.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/test/Test1408.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/test/Test1410.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/test/Test1410.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq14/test/Test1414.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq14/test/Test1414.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/BankTeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/BankTeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/BasicBounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/BasicBounds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/BasicGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/BasicGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Generators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Generators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/GenericMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/GenericMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/GenericReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/GenericReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/GenericVarargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/GenericVarargs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/GenericsAndCovariance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/GenericsAndCovariance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Holder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Holder1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Holder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Holder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Holder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Holder3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/IterableFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/IterableFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/MultipleInterfaceVariants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/MultipleInterfaceVariants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/New.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/RondomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/RondomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Sets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Sets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/ThreeTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/ThreeTuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/TwoTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/TwoTuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/coffee/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/coffee/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/coffee/Breve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/coffee/Breve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/coffee/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/coffee/Cappuccino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/coffee/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/coffee/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/coffee/CoffeeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/coffee/CoffeeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/coffee/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/coffee/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/coffee/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/coffee/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/test/Iofile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/test/Iofile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/test/Ja15_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/test/Ja15_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq15/test/Test1502.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq15/test/Test1502.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq16/CopyingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq16/CopyingArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq16/CotainerComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq16/CotainerComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq16/CountingGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq16/CountingGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq16/Generated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq16/Generated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq16/GeneratorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq16/GeneratorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq16/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq16/IceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/CollectionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/CollectionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/CollectionDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/CollectionDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/CollectionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/CollectionMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/CountedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/CountedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Countries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/FailFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/FailFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/FillingLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/FillingLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Groubdhog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Groubdhog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/MapData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/MapData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/MapEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/MapEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/QueueBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/QueueBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/ReadOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/ReadOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/References.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/References.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/SimpleHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/SimpleHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/SortedSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/SortedSetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/StringHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/StringHashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Synchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Synchronization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/ToDoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/TypesForSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/TypesForSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Unsupported.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Unsupported.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq17/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq17/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/BasicFileOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/BasicFileOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/BinaryFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/BinaryFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/Blips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/Blips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/BufferToText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/BufferToText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/BufferedInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/BufferedInputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/DirList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/DirList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/DirList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/DirList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/DirList3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/DirList3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/Echo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/Echo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/FileLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/FileLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/FileOutputShortcut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/FileOutputShortcut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/FormattedMemoryInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/FormattedMemoryInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/GetChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/GetChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/LockingMappedFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/LockingMappedFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/MakeDirectories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/MakeDirectories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/MemoryInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/MemoryInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/MyWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/MyWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/ProcessFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/ProcessFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/Redirecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/Redirecting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/SerializeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/SerializeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/StoringAndRecoveringData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/StoringAndRecoveringData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/TestEOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/TestEOF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/TextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/UsingRandomAccessFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/UsingRandomAccessFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq18/Worm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq18/Worm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/AlarmPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/AlarmPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Burrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Burrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Competitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Competitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/EnumClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/EnumClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/EnumImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/EnumImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/EnumMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/EnumMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Meal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Meal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/OutCome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/OutCome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/OzWitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/OzWitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/PostOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/PostOffice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/RoShamBo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/RoShamBo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/RoShamBo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/RoShamBo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/SecurityCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/SecurityCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/SpaceShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/Spiciness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/Spiciness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/TrafficLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/TrafficLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq19/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq19/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/AtUnitExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/AtUnitExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/ExtractInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/ExtractInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/Multiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/Multiplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/PasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/PasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/SimulatingNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/SimulatingNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/TableCreationProcessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/TableCreationProcessorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/Testable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/Testable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/UseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/UseCaseTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/UseCaseTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/database/Constraints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/DBTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/database/DBTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/database/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/SQLInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/database/SQLInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/SQLString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/database/SQLString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/database/TableCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq20/database/Uniqueness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq20/database/Uniqueness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/AtomicityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/AtomicityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/AttemptLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/AttemptLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/BasicThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/BasicThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/CachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/CachedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/CallableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/CaptureUncaughtException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/CaptureUncaughtException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/CloseResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/CloseResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/CriticalSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/CriticalSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/DaemonFromFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/DaemonFromFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/DaemonThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/DaemonThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/DaemonThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/DaemonThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/DelayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/DelayQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/EvenChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/EvenChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/EvenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/EvenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/ExceptionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/ExceptionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/FixedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/FixedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/HorseRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/HorseRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/IntGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/IntGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/Interrupting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/Interrupting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/Joining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/Joining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/LiftOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/LiftOff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/MainThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/MainThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/MoreBasicThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/MoreBasicThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/MultiLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/MultiLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/MutexEvenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/MutexEvenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/NotifyVSNotifyAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/NotifyVSNotifyAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/OrnamentalGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/OrnamentalGarden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/PriorityBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/PriorityBlockingQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SelfManaged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SelfManaged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SerialNumberChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SerialNumberChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SerialNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SerialNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SimpleDaemons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SimpleDaemons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SimplePriorities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SimplePriorities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SimpleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SimpleThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SleepingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SleepingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SyncObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SyncObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/SynchronizedEvenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/SynchronizedEvenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/TestBlockingQueues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/TestBlockingQueues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/ThreadLocalVariableHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/ThreadLocalVariableHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/ThreadVariations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/ThreadVariations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/ToastOMatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/ToastOMatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/WaxOMatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/WaxOMatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/WaxOMatic2/WaxOMatic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/WaxOMatic2/WaxOMatic2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/deadLock/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/deadLock/Chopstick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/deadLock/DeadLockingDiningPhilosophers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/deadLock/DeadLockingDiningPhilosophers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/deadLock/FixedDiningPhilosophers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/deadLock/FixedDiningPhilosophers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/deadLock/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/deadLock/Philosopher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/test/Market24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/test/Market24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/test/Test2101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/test/Test2101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/test/Test2106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/test/Test2106.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/test/Test2115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/test/Test2115.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/test/Test2117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/test/Test2117.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zyq21/test/Test2121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thinkInJava/zyq21/test/Test2121.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,47 +460,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exam/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam/Main1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam/Main2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,12 +517,6 @@
               <item name="think" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="think" type="b2602c69:ProjectViewProjectNode" />
-              <item name="think" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -160,7 +539,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596877977994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596878444319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,13 +578,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPattern.behaviour.command.Client" />
+  <component name="RunManager" selected="Application.AtomicIntegerTest">
+    <configuration name="ArrayNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkInJava.zyq05.ArrayNew" />
       <module name="think" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designPattern.behaviour.command.*" />
+          <option name="PATTERN" value="thinkInJava.zyq05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkInJava.zyq21.AtomicIntegerTest" />
+      <module name="think" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkInJava.zyq21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkInJava.zyq06.access.ConnectionManager" />
+      <module name="think" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkInJava.zyq06.access.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,31 +644,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.MinSubString" />
-      <module name="think" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.LargeestRectangle" />
-      <item itemvalue="Application.MinSubString" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ArrayNew" />
+      <item itemvalue="Application.ConnectionManager" />
+      <item itemvalue="Application.AtomicIntegerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicIntegerTest" />
+        <item itemvalue="Application.ConnectionManager" />
+        <item itemvalue="Application.ArrayNew" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LargeestRectangle" />
-        <item itemvalue="Application.MinSubString" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -466,13 +860,6 @@
       <workItem from="1595405477684" duration="16837000" />
       <workItem from="1595488683339" duration="86631000" />
       <workItem from="1596812469818" duration="6014000" />
-    </task>
-    <task id="LOCAL-00032" summary="15.3">
-      <created>1569419972667</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1569419972667</updated>
     </task>
     <task id="LOCAL-00033" summary="15.4 泛型方法">
       <created>1569487944161</created>
@@ -810,15 +1197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596717842918</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="合并考试包">
+      <created>1596878032671</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1596878032672</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455000" />
+    <option name="totallyTimeSpent" value="1004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18645205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -829,7 +1222,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.4164306" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986351" visible="true" weight="0.20113315" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37252125" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -919,7 +1312,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="并发博客，以及算法之美1" />
     <MESSAGE value="链表的相关操作：&#10;1、单链表反转&#10;2、链表中环的检测&#10;3、两个有序的链表的合并&#10;4、删除链表倒数第n个结点&#10;5、求链表的中间结点&#10;&#10;重要思想：快慢指针的使用，很有用！！！" />
     <MESSAGE value="链表实现链式栈，包括出栈入栈等操作。" />
     <MESSAGE value="数组队列实现，链式队列实现，递归实现斐波那契数列；&#10;排序：冒泡排序，插入排序，选择排序" />
@@ -944,7 +1336,8 @@
     <MESSAGE value="动态规划，回溯算法" />
     <MESSAGE value="剑指offer最后几道题" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="合并考试包" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并考试包" />
   </component>
   <component name="WindowStateProjectService">
     <state x="504" y="161" key="#Notifications" timestamp="1595490008291">
@@ -1028,241 +1421,241 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq17/SimpleHashMap.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq17/SimpleHashMap.java</url>
           <line>53</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq17/References.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq17/References.java</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/Directory.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/Directory.java</url>
           <line>61</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/ProcessFiles.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/ProcessFiles.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/ProcessFiles.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/ProcessFiles.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/BufferedInputFile.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/BufferedInputFile.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/MemoryInput.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/MemoryInput.java</url>
           <line>6</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/TestEOF.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/TestEOF.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/BasicFileOutput.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/BasicFileOutput.java</url>
           <line>7</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/StoringAndRecoveringData.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/StoringAndRecoveringData.java</url>
           <line>6</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/TextFile.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/TextFile.java</url>
           <line>60</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/TextFile.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/TextFile.java</url>
           <line>64</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/GetChannel.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/GetChannel.java</url>
           <line>11</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/GetChannel.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/GetChannel.java</url>
           <line>14</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/GetChannel.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/GetChannel.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/GetChannel.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/GetChannel.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/Worm.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/Worm.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/Worm.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/Worm.java</url>
           <line>50</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/Worm.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/Worm.java</url>
           <line>58</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/Blips.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/Blips.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq18/Blips.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq18/Blips.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/EnumClass.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/EnumClass.java</url>
           <line>16</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/EnumImplementation.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/EnumImplementation.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/Enums.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/Enums.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/Course.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/Course.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/SecurityCategory.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/SecurityCategory.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/EnumMaps.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/EnumMaps.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/PostOffice.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/PostOffice.java</url>
           <line>114</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/VendingMachine.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/VendingMachine.java</url>
           <line>111</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/RoShamBo1.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo1.java</url>
           <line>52</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/RoShamBo2.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo2.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/RoShamBo3.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo3.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq19/RoShamBo5.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq19/RoShamBo5.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq20/UseCaseTracker.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq20/UseCaseTracker.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq20/database/TableCreator.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq20/database/TableCreator.java</url>
           <line>14</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq20/Multiplier.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq20/Multiplier.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq21/MainThread.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq21/MainThread.java</url>
           <line>4</line>
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq21/AttemptLocking.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq21/AttemptLocking.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq21/CriticalSection.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq21/CriticalSection.java</url>
           <line>137</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq21/MultiLock.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq21/MultiLock.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="57" />
@@ -1280,13 +1673,13 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq21/TestBlockingQueues.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq21/TestBlockingQueues.java</url>
           <line>118</line>
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zyq21/HorseRace.java</url>
+          <url>file://$PROJECT_DIR$/src/thinkInJava/zyq21/HorseRace.java</url>
           <line>60</line>
           <properties />
           <option name="timeStamp" value="63" />
@@ -1455,7 +1848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zyq13/zyq1306/TestRegularExpression.java">
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq13/zyq1306/TestRegularExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -1475,14 +1868,14 @@
     <entry file="file://$PROJECT_DIR$/src/exam/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1492,14 +1885,126 @@
     <entry file="file://$PROJECT_DIR$/src/exam/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="667">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/sss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq05/ArrayNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq05/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq05/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq05/MultiDimArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq05/NewVarArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq05/Test17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq05/VarargType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq06/access/local/Foreign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq06/access/local/PackagesClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq06/access/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq06/access/Lunch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq06/access/Widget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq21/deadLock/DeadLockingDiningPhilosophers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thinkInJava/zyq21/AtomicityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-843">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
