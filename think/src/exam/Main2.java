@@ -1,6 +1,5 @@
 package exam;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -15,7 +14,27 @@ public class Main2 {
         for(int i = 0; i < len; i++){
             sum += nums[i];
         }
-        return sum;
+        boolean[][] dp = new boolean[len][sum + 1];
+        dp[0][0] = true;
+        dp[0][nums[0]] = true;
+        for(int i = 1; i < len; i++){
+            for(int j = 0; j <= sum; j++){
+                dp[i][j] = dp[i - 1][j];
+                if(j >= nums[i]){
+                    dp[i][j] = dp[i][j] || dp[i - 1][j - nums[i]];
+                }
+            }
+        }
+        int value = 0;
+        for(int i = sum; i >= 0; i--){
+            if(i % 2 == 0){
+                if(dp[len - 1][i] && dp[len - 1][i / 2]){
+                    value = sum - i;
+                    break;
+                }
+            }
+        }
+        return value;
     }
 
     public static void main(String[] args){
@@ -30,7 +49,7 @@ public class Main2 {
         }
         int[] count = new int[T];
         for(int i = 0; i < T; i++){
-            Arrays.sort(nums[i]);
+//            Arrays.sort(nums[i]);
             count[i] = dropValue(nums[i]);
         }
         for(int i = 0; i < T; i++){

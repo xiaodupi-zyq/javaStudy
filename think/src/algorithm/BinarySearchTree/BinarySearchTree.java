@@ -1,8 +1,6 @@
 package algorithm.BinarySearchTree;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @Author: zyq-xiaoliuzi
@@ -289,4 +287,50 @@ public class BinarySearchTree {
     return Math.max(left,right) + root.val;
   }
 
+
+
+}
+
+class LRUCache {
+
+  private LinkedList<Integer> list;
+  private HashMap<Integer,Integer> map;
+  private int size = 0;
+  private int capacity = 0;
+
+  public LRUCache(int capacity) {
+    this.capacity = capacity;
+    this.list = new LinkedList<Integer>();
+    this.map = new HashMap<>();
+  }
+
+  public int get(int key) {
+    if(map.containsKey(key)){
+      list.remove(new Integer(key));
+      list.add(key);
+      return map.get(key);
+    }else{
+      return -1;
+    }
+  }
+
+  public void put(int key, int value) {
+    if(map.containsKey(key)){
+      map.put(key,value);
+      list.remove(new Integer(key));
+      list.add(key);
+    }else{
+      while(size >= capacity){
+        int tmp = list.get(0);
+        list.remove(0);
+        map.remove(tmp);
+        size--;
+      }
+      map.put(key,value);
+      list.add(key);
+      size++;
+    }
+
+
+  }
 }
