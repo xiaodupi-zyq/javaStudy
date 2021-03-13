@@ -54,7 +54,7 @@ class Singleton3 {
  * 懒汉式，线程不安全，但是节省资源
  */
 class Singleton1{
-    private static Singleton1 uniqueInstance;
+    private static volatile Singleton1 uniqueInstance;
     private Singleton1(){}
 
     public static Singleton1 getUniqueInstance(){
@@ -73,7 +73,7 @@ class Singleton1{
  */
 class Singleton2{
     //饿汉式直接实例化，就不存在多次实例化的问题了
-    private static Singleton2 uniqueInstance = new Singleton2();
+    private static volatile Singleton2 uniqueInstance = new Singleton2();
     private Singleton2(){}
 
     public static Singleton2 getUniqueInstance(){
