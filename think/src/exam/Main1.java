@@ -1,44 +1,60 @@
 package exam;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main1 {
+    private static List<List<Integer>> res = new ArrayList<List<Integer>>();
+    private static List<Integer> temp = new ArrayList<>();
+
+    public static List<List<Integer>> find(int[] nums){
+        if(nums == null){
+            return null;
+        }
+        dfs(0,Integer.MIN_VALUE,nums);
+        return res;
+    }
+
+    private static void dfs(int curIndex,int preValue,int[] nums){
+        if(curIndex >= nums.length){
+            if(temp.size() >= 2){
+                res.add(new ArrayList<>(temp));
+            }
+            return;
+        }
+        if(nums[curIndex] >= preValue){
+            temp.add(nums[curIndex]);
+            dfs(curIndex + 1,nums[curIndex],nums);
+            temp.remove(temp.size() - 1);
+        }
+        if(nums[curIndex] != preValue){
+            dfs(curIndex + 1,preValue,nums);
+        }
+    }
+
+
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int M = sc.nextInt();
-        int[][] nums = new int[N][M];
-        for(int i = 0; i < N; i++){
-            for(int j = 0; j < M; j++){
-                nums[i][j] = sc.nextInt();
-            }
+        int n = sc.nextInt();
+        if(n < 3){
+            System.out.println(0);
+            return;
         }
-        ArrayList<Integer> sum = new ArrayList<>();
-        for(int i = 0; i < M; i++){
-            int s = 0;
-            for(int j = 0; j < N; j++){
-                s += nums[j][i];
-            }
-            sum.add(s);
+        int[] nums = new int[n];
+        for(int i = 0; i < n; i++){
+            nums[i] = sc.nextInt();
         }
-        int max = Integer.MIN_VALUE;
-        for(int i = 0; i < M; i++){
-            ArrayList<Integer> tmp = new ArrayList<>(sum);
-            Collections.rotate(tmp,i);
-            int s = 0;
-            int m = Integer.MIN_VALUE;
-            for(int j = 0; j < M; j++){
-                s += tmp.get(j);
-                m = s > m ? s : m;
-                if(s < 0){
-                    s = 0;
-                }
-            }
-            max = max > m ? max : m;
-        }
-        System.out.println(max);
 
+        List<List<Integer>> ret = find(nums);
+        int count = 0;
+        for(List<Integer> list : ret){
+            if(list.size() == 0){
+                count++;
+            }
+        }
+        System.out.println(count);
 
 
 

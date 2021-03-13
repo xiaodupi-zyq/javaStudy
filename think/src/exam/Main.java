@@ -1,55 +1,41 @@
 package exam;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static int floorNum(int[] nums,int target,int len){
+        int floor = Integer.MAX_VALUE;
+        int diff = Integer.MAX_VALUE;
+        for(int i = 0; i < len; i++){
+            if(nums[i] == target){
+                return nums[i];
+            }
+            int t = Math.abs(nums[i] - target);
+            if(t < diff){
+                floor = nums[i];
+                diff = t;
+            }else if(diff == t){
+                floor = floor <= nums[i] ? floor : nums[i];
+            }
+        }
+        return floor;
+    }
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int[] nums = new int[N];
-        for(int i = 0; i < N; i++){
+
+        int n = sc.nextInt();
+        int q = sc.nextInt();
+        int[] nums = new int[n];
+        for(int i = 0; i < n; i++){
             nums[i] = sc.nextInt();
         }
-        if(N <= 3){
-            for(Integer j : nums){
-                System.out.print(j + " ");
-            }
-            return;
+        for(int i = 0; i < q; i++){
+            int tmp = sc.nextInt();
+            int ret = floorNum(nums,tmp,n);
+            System.out.println(ret);
         }
-        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
-        int k = 1;
-        int i = 0;
-        while(i < N){
-            ArrayList<Integer> tmp = new ArrayList<>();
-            int t = k;
-            while(t > 0 && i < N){
-                tmp.add(nums[i]);
-                t--;
-                i++;
-            }
-            k = k << 1;
-            list.add(tmp);
-        }
-        ArrayList<Integer> ret = new ArrayList<>();
-        int len = list.size();
-        for(int j = 0; j < len - 1;j++){
-            ret.add(list.get(j).get(0));
-        }
-        ret.addAll(list.get(len-1));
-        int s = list.get(len-1).size() / 2 ;
-        for(int j = s; j < list.get(len - 2).size() - 1;j++){
-            ret.add(list.get(len - 2).get(j));
-        }
-        for(int j = len-2; j > 0; j--){
-            int l = list.get(j).size();
-            ret.add(list.get(j).get(l-1));
-        }
-        for(Integer j : ret){
-            System.out.print(j + " ");
-        }
-
 
     }
 }
-
